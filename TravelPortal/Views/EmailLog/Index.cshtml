@@ -1,0 +1,59 @@
+﻿@model List<EmailLogModel>
+
+<h2>Email Logs</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>EmailLogId</th>
+            <th>ToEmail</th>
+            <th>Subject</th>
+            <th>Body</th>
+            <th>SentDate</th>
+            <!-- Add more columns as needed -->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+            <tr>
+                <td>@log.EmailLogId</td>
+                <td>@log.ToEmail</td>
+                <td>@log.Subject</td>
+                <td>
+                    <!-- Add a link to open Fancybox -->
+                    <button class="view-button" data-log-id="@log.EmailLogId">Click to View</button>
+                </td>             
+                <td>@log.SentDate</td>
+                <!-- Add more columns as needed -->
+            </tr>
+        }
+    </tbody>
+</table>
+<script src="~/js/jquery.fancybox.min.js"></script>
+<script>
+    // Function to open Fancybox with HTML content
+    $(document).on('click', '.view-button', function () {
+        var logId = $(this).data('log-id');
+
+        // AJAX call to fetch HTML content
+        $.ajax({
+            url: '/EmailLog/GetEmailBody',
+            method: 'GET',
+            data: { emailLogId: logId },
+            success: function (htmlContent) {
+                // Open Fancybox with HTML content
+                $.fancybox.open({
+                    src: htmlContent,
+                    type: "html"
+                });
+
+                $(".approve-button").hide();
+                $(".reject-button").hide();
+            },
+            error: function (error) {
+                console.error('Error fetching email body:', error);
+            }
+        });
+    });
+</script>

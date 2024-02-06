@@ -1,0 +1,82 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@{
+    ViewData["Title"] = "Report";
+}
+
+<div id="reportContainer" style="text-align: center; width: 50%; margin: 0 auto;">
+    <h2 style="margin-bottom: 20px;">Insurance Report</h2>
+
+    <div>
+        <label for="FromDate" style="margin-top: 15px;">From Date:</label>
+        <input type="text" id="FromDate" name="FromDate" readonly />
+
+        <label for="ToDate" style="margin-top: 15px;">To Date:</label>
+        <input type="text" id="ToDate" name="ToDate" readonly />
+
+        <div style="margin-top: 40px; margin-left: 80px;">
+            <a asp-action="ExportToExcel" class="btn btn-primary" id="exportButton">Export to Excel</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#FromDate, #ToDate").datepicker({
+            //minDate: 0, // Disable past dates
+            dateFormat: "dd/mm/yy"
+        });
+
+        $("#exportButton").click(function () {
+            var fromDate = $("#FromDate").val();
+            var toDate = $("#ToDate").val();
+
+            // Perform AJAX call to get filtered data
+            $.ajax({
+                url: '/InsuranceReport/ExportToExcel',
+                type: 'GET',
+                data: { fromDate: fromDate, toDate: toDate },
+                success: function (data) {
+                    // Check if data is not empty before triggering download
+                    if (data) {
+                        // Use the data directly, assuming it contains the file path or content
+                        window.location.href = data;
+                    } else {
+                        console.error("Empty response received");
+                    }
+                },
+                error: function (error) {
+                    console.error(error);
+                }
+            });
+        });
+    });
+
+        //$(document).ready(function () {
+        //    $("#FromDate, #ToDate").datepicker({
+        //        dateFormat: "dd/mm/yy"
+        //    });
+
+        //    $("#exportButton").click(function () {
+        //        var fromDate = $("#FromDate").val();
+        //        var toDate = $("#ToDate").val();
+
+        //        // Perform AJAX call to get filtered data
+        //        $.ajax({
+        //            url: '/Report/ExportToExcel',
+        //            type: 'GET',
+        //            data: { fromDate: fromDate, toDate: toDate },
+        //            success: function (data) {
+        //                // Handle the success and download the Excel file
+        //                window.location.href = '/Report/ExportToExcel?fromDate=' + fromDate + '&toDate=' + toDate;
+        //            },
+        //            error: function (error) {
+        //                console.error(error);
+        //            }
+        //        });
+        //    });
+        //});
+</script>

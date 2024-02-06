@@ -1,0 +1,668 @@
+﻿@model List<GetTravelEpense> 
+
+@{
+    ViewData["Title"] = "Exepenses";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Portal Dashboard</title>
+<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+<link href="~/css/all.css" rel="stylesheet" />
+    <link href="~/css/jquery.fancybox.min.css" rel="stylesheet" />
+    <style>
+
+        /* Your custom styles go here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .expense-table-container {
+            overflow-x: auto;
+        }
+        .navbar {
+            background-color: #fff !important;
+            color: #fff;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border: 2px solid #ccc;
+            display: flex;
+        }
+
+        .navbar-left {
+            flex: 1;
+            display: flex;
+            justify-content: left;
+        }
+
+        .navbar-middle {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-right {
+            flex: 1;
+            display: flex;
+            justify-content: right;
+        }
+
+        /* Style the logos within each container */
+        .navbar img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .navbar-right {
+            flex: none;
+        }
+
+        .content {
+            transition: margin-left .5s;
+            padding: 16px;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidebar a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidebar a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidebar .closebtn {
+                position: absolute;
+                top: 5px;
+                right: 25px;
+                font-size: 30px;
+            }
+
+        .openbtn {
+            font-size: 30px;
+            cursor: pointer;
+            background-color: #fff;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+        }
+
+            .openbtn:hover {
+                /* background-color: #ccc; */
+            }
+
+        .expense-table {
+            border-collapse: collapse;
+            width: 100%; /* Set the table width to 100% */
+        }
+
+            .expense-table th, .expense-table td {
+                border: 1px solid #ccc;
+                padding: 7px; /* Increased padding for table cells */
+            }
+
+        .center-button {
+            display: block;
+            margin: 0 auto;
+        }
+
+        .form-control {
+            padding: .375rem .45rem !important;
+        }
+
+        .border-secondaryNew {
+            background-color: #f8f9fa;
+            color: black;
+            /*      padding: 10px;*/
+            cursor: pointer;
+            border: 2px solid #ccc;
+        }
+
+                /* Position the label element relative to the icon */
+        .attachment-label {
+            display: inline-block;
+            position: relative;
+        }
+
+        .tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+        /* Style the file input */
+        .file-input {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            cursor: pointer;
+        }
+          #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        tr {
+            border: 1px solid #ccc; /* Add border to each row */
+        }
+
+        th, td {
+            border: 1px solid #ccc; /* Add border to each column */
+        }
+
+        .mandatory-star {
+                    color: red;
+                    margin-right: 5px; /* Adjust margin as needed */
+                }
+                 .error{
+            border: 2px solid red !important;
+        }
+
+        .ErrorWithAllowedtoSave{
+            border: 2px solid red !important;
+        }
+        .input-group-appendNew {
+            display:none;
+            position: absolute;
+            top: 8px;
+            bottom: 0;
+            right: 0;
+            z-index: 2;
+            padding: 0;
+        }
+
+.input-group-text {
+    border: none !important;
+    background-color: transparent !important;
+            cursor: pointer !important;
+    padding:2.6rem .95rem !important;
+}
+
+ #selectedTexts {
+      color: red;
+    }
+    </style>
+    <style id="inert-style">
+        [inert] {
+            pointer-events: none;
+            cursor: default;
+        }
+
+            [inert],
+            [inert] * {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+    </style>
+    <style id="inert-style">
+        [inert] {
+            pointer-events: none;
+            cursor: default;
+        }
+
+            [inert],
+            [inert] * {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+
+        .input-group-text {
+            border: none !important;
+            background-color: transparent !important;
+            cursor: pointer !important;
+            padding: 2.6rem .95rem !important;
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body id="content" style="background-color: #f8f9fa">
+    <div class="container border-secondaryNew rounded p-3 mb-4">
+      @*  <h3 class="mb-4 text-center">Expense Information</h3>*@
+        <div class="row addcentreallignforPrint justify-content-center">
+           <input type="hidden" id="hdnIsExpenseWithinLimit"/>
+            <div class="col-md-3">
+                <h6>Request ID</h6>
+                <label id="lblRequestNumber"></label>
+            </div>
+            <br  class="showForPrint" style="display:none"/>
+            <br class="showForPrint" style="display:none" />
+             <br class="showForPrint" style="display:none" />
+            <div class="col-md-3">
+                <h6>Total by company</h6>
+                (INR) <label id="lblCalculateTotal"></label>
+            </div>
+               <br  class="showForPrint" style="display:none"/>
+            <br class="showForPrint" style="display:none" />
+             <br class="showForPrint" style="display:none" />
+            <div class="col-md-3">
+                <h6 id="headerofbalance">
+                    Balance Payable to/by Organization(₹)
+                </h6>
+                (INR) <label id="lblBalance"></label>
+            </div>
+           
+          @*  <div class="col-md-3" style="">
+                <br />  
+                <h6 id="">
+                    Employee Name
+                </h6>
+                <label id="lblEmployeeName">@Model[0].strNameEmp</label>
+            </div>
+            <div class="col-md-3" style="">
+                <br />  
+                <h6 id="">
+                    Employee Number
+                </h6>
+                <label id="lblEmployeeName">@Model[0].EmpNumber</label>
+            </div>*@
+            
+            <div class="col-md-3">
+                <h6><a id="viewEligibilityButton" class="hideForPrint">View Eligibility</a></h6>
+                <button type="submit" id="PrintPdf" class="btn btn-danger btn-small hideForPrint">Print</button>
+            </div>
+
+        </div>
+
+         <div class="row addcentreallignforPrint justify-content-center">
+            <div class="col-md-3" style="">
+                <br />  
+                <h6 id="">
+                    Employee Name
+                </h6>
+                <label id="lblEmployeeName"></label>
+            </div>
+            <div class="col-md-3" style="">
+                <br />  
+                <h6 id="">
+                    Employee Number
+                </h6>
+                <label id="lblEmployeeNumber"></label>
+            </div>
+             <div class="col-md-3" style="">
+                <br />  
+                <h6 id="">
+                    Employee Grade
+                </h6>
+                <label id="lblEmployeeGrade"></label>
+            </div>
+             <div class="col-md-3" style="">
+                <br />  
+                <h6 id="">
+                    Employee Mobile
+                </h6>
+                <label id="lblEmployeeMobile"></label>
+            </div>
+         
+
+        </div>
+        <hr>
+
+    </div>
+
+ 
+
+    <div class="container-fluid border-secondaryNew rounded p-3 mb-4">
+        <!-- Use container-fluid for full-width -->
+     @*   <h3 class="mb-4 text-center">Expense Details</h3>*@
+     <div class="expense-table-container">
+        <table class="expense-table" style="width: 100%; display:none">
+            <tr>
+                <th>Expense Type</th>
+                <th>From Date</th>
+                <th>To Date</th>
+                <th>Currency</th>
+                <th>By Company</th>
+                <th>By Employee</th>
+                <th class="hideForPrint">Particulars</th>
+                <th class="hideForPrint">File</th>
+              @*  <th>Status</th>*@
+                <th class="hideForPrint"></th>
+            </tr>
+            <tr id="expense-row" class="dummyRow expense-row" style="display:none">
+                <td>
+                    <select id="selectCategory" class="form-control selectCategory mandatoryFields">
+                        <option value="">Select</option>
+                        @*<option value="expense-type-1">Food Expense</option>
+                        <option value="expense-type-2">Expense Type</option>*@
+                        <!-- Add more options as needed -->
+                    </select>
+                </td>
+                <td class="clanederIconClickRow">
+                    <input id="" class="form-control mandatoryFields travelDate expenseDate fromDate"
+                           name="travelDate" type="text">
+                   @* <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                        </span>
+                    </div>*@
+                  @*  <input type="date" class="form-control fromDate mandatoryFields">*@
+                </td>
+                <td class="clanederIconClickRow">
+                    @* <input type="date" class="form-control toDate mandatoryFields">*@
+                    <input id="" class="form-control mandatoryFields toDate expenseDate"
+                name="" type="text">
+                   @* <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                        </span>
+                    </div>*@
+                </td>
+                <td>
+                    <select id="selectCurrency" class="form-control selectCurrency mandatoryFields">
+                        <option value="">Select</option>
+                        
+                        <!-- Add more currency options as needed -->
+                    </select>
+                </td>
+                <td>
+                    <input type="text" class="form-control byCompany mandatoryFields" disabled>
+                </td>
+                <td>
+                    <input type="text" class="form-control byEmployee mandatoryFields">
+                  
+                </td>
+                <td>
+                    <input type="text" class="form-control comment">
+                </td>
+                 <td class="hideForPrint">
+                    <label class="attachment-label">
+                        <input type="file" class="file-input" onchange="chnageoffileupload(this)" style="display: none;">
+                    @*    <i class="fas fa-paperclip attachment-icon"></i>*@
+                        <i class="fa fa-upload attachment-icon"></i>
+
+                         <a class="anchorPaperclick" style="display:none">
+                            <i class="fas fa-paperclip" ></i>
+                        </a>
+                        <button class="btn btndelete" style="display:none" onclick="DeleteAttachment(this)">
+                            <i class="fas fa-trash delete-icon"></i>
+                        </button>
+                          
+                    </label>
+                </td>
+
+               @* <td>
+                    <select disabled class="form-control ApproveOrRejectselect">
+                        <option value="">Select</option>
+                        <option value="approved">Approved</option>
+                        <option value="reject">Reject</option>
+                        <!-- Add more status options as needed -->
+                    </select>
+                </td>*@
+                <td>
+                    <button class="btn btndelete" onclick="removeExpenseRow(this)">
+                        <i class="fas fa-trash delete-icon"></i>
+                    </button>
+                </td>
+            </tr>
+            @foreach (var expense in Model)
+            {
+                <tr class="expense-row">
+
+                    <td style="display:none" class="expenseID">@expense.expenseID</td>
+                    <td style="display:none" class="issubmitted">@expense.issubmitted</td>
+
+                    <td>
+                        <select class="form-control selectCategory" data-value="@expense.strExpenseType">
+                            <option value="">Select</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </td>
+                    <td class="clanederIconClickRow">
+                        @*<input type="date" class="form-control fromDate" value="@expense.strFromDate">*@
+                        <input id="" class="form-control mandatoryFields travelDate expenseDate fromDate"
+                           name="travelDate" type="text" value="@expense.strFromDate">
+                         @*  <div class="input-group-append">
+                                <span class="input-group-text">
+                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                </span>
+                            </div>*@
+                    </td>
+                    <td class="clanederIconClickRow">
+                      @*  <input type="date" class="form-control toDate" value="@expense.strToDate">*@
+                        <input id="" class="form-control mandatoryFields travelDate expenseDate toDate"
+                           name="travelDate" type="text" value="@expense.strToDate">
+                           @*<div class="input-group-append">
+                                <span class="input-group-text">
+                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                </span>
+                            </div>*@
+                    </td>
+                    <td>
+                        <select class="form-control selectCurrency" data-value="@expense.strCurrency">
+                            <option value="">Select</option>
+                            <!-- Add more currency options as needed -->
+                        </select>
+                    </td>
+                    <td>
+                        <input type="number" class="form-control byCompany EnableForAccounts" value="@expense.strByCompany" disabled>
+                    </td>
+                    <td>
+                        <input type="number" class="form-control byEmployee EnableForAccounts" value="@expense.strByEmployee" disabled>
+                       
+
+                    </td>
+                    <td class="hideForPrint">
+                        <input type="text" class="form-control comment" value="@expense.strComment">
+                    </td>
+                    <td class="hideForPrint">
+                        <label class="attachment-label">
+                           <input type="file" class="file-input" onchange="chnageoffileupload(this)" style="display: none;">
+                          @*  <i class="fas fa-paperclip attachment-icon"></i>*@
+                          @if(expense.expenseID  == 0){
+                              <i class="fa fa-upload attachment-icon" disabled></i>
+                          }
+                          else{
+                              if(expense.strfilename != "" && expense.strfilename != ""){
+                                    <a class="anchorPaperclick" href="@Url.Action("DownloadAttachment", new { expenseToken = expense.ExpenseToken})">
+                                        <i class="fas fa-paperclip"></i>
+                                    </a>
+                                     <button class="btn btndelete" onclick="DeleteAttachment(this)">
+                                <i class="fas fa-trash delete-icon"></i>
+                        </button>
+@*                                    <i class="fas fa-trash delete-icon" onclick="DeleteAttachment(this)"></i>
+*@                                    <i class="fa fa-upload attachment-icon test" style="display:none"></i>
+                              }
+                              else{
+                                  <i class="fa fa-upload attachment-icon"></i>
+
+                                   <a class="anchorPaperclick" style="display:none">
+                            <i class="fas fa-paperclip" ></i>
+                        </a>
+                        <button class="btn btndelete" style="display:none" onclick="DeleteAttachment(this)">
+                            <i class="fas fa-trash delete-icon"></i>
+                        </button>
+                              }
+                          }
+                        </label>
+                    </td>
+                    @*<td>
+                        <select disabled class="form-control">
+                            <option value="">Select</option>
+                            <option value="approved">Approved</option>
+                            <option value="pending">Pending</option>
+                            <!-- Add more status options as needed -->
+                        </select>
+                    </td>*@
+                    <td class="hideForPrint">
+                        @if(expense.expenseID  == 0){
+                        <button class="btn btndelete" disabled onclick="removeExpenseRow(this)">
+                                <i class="fas fa-trash delete-icon"></i>
+                        </button>
+                        }
+                        else{
+                            <button class="btn btndelete" onclick="removeExpenseRow(this)">
+                            <i class="fas fa-trash delete-icon"></i>
+                        </button>
+                        }
+                        
+                    </td>
+                </tr>
+            }
+        
+        </table>
+        </div>
+        <span id="selectedTexts"></span>
+    </div>
+    <br />
+    <div class="row justify-content-center mt-4 hideForPrint">
+        <div class="col-md-6 text-center">
+            <div class="btn-group">
+                <button type="submit" class="btn btn-danger btn-lg center-button btnForRequestor" style="display:none" onclick="saveFoodExpenses(false)">Save</button>&nbsp;
+                <button type="submit" class="btn btn-danger btn-lg center-button btnForRequestor" style="display:none" onclick="SubmitFoodExpenses(true)">Submit</button>&nbsp;
+                <button type="button" class="btn btn-secondary btn-lg center-button btnForRequestor btnForonlyAccountanttoshow" style="display:none" id="addMoreButton" onclick="addRow()"><i class="fas fa-plus"></i> Add More Expense</button>&nbsp;
+                <a id="btnApprove" class="btn btn-success btn-lg center-button btnForManagerAccountant" style="display:none">Approve</a>&nbsp;
+                <a id="btnReject" class="btn btn-danger btn-lg center-button btnForManagerAccountant" style="display:none">Reject</a>&nbsp;
+            </div>
+        </div>
+    </div>
+
+
+
+     <div class="signature showForPrint" style="display:none">
+        
+        <div>
+            <p>________________________</p>
+            <p>Employee Signature</p>
+        </div>
+        <br />
+        <div>
+           <p>________________________</p>
+            <p>HOD Signature</p>
+        </div>
+    </div>
+
+
+
+    </div>
+
+    <script src="~/js/jquery-3.5.1.min.js"></script>
+<script src="~/js/jquery-ui.js"></script>
+@*    <script src="https://printjs-4de6.kxcdn.com/print.min.js"></script>*@
+    <script src="~/js/print.min.js"></script>
+    <script src="~/js/bootstrap.min.js"></script>
+    <script src="~/js/jquery.datatables.min.js"></script>
+    <script src="~/js/jquery.fancybox.min.js"></script>
+<link href="~/css/jquery.datatables.min.css" rel="stylesheet" />
+    <link href="~/css/all.css" rel="stylesheet" />
+    <link href="~/css/jquery-ui.css" rel="stylesheet" />
+    <script src="~/js/AddExpense.js" asp-append-version="true"></script>
+    <script src="~/js/common.js" asp-append-version="true"></script>
+    <script>
+        $(document).ready(function () {
+            // Function to trigger the print to PDF
+            $("#PrintPdf").on("click", function () {
+                HideForPrint();
+                printPDF();
+                ShowForPrint();
+            });
+        });
+
+        function HideForPrint(){
+            $(".addcentreallignforPrint").addClass("text-center");
+            $(".hideForPrint").hide();
+            $(".showForPrint").show();
+            $(".openbtn").hide();
+        }
+
+        function ShowForPrint(){
+            $(".addcentreallignforPrint").removeClass("text-center");
+            $(".hideForPrint").show();
+             $(".showForPrint").hide();
+             $(".openbtn").show();
+        }
+
+        function printPDF() {
+            printJS({
+                printable: 'content',
+                type: 'html',
+                targetStyles: ['*']
+            });
+        }
+    </script>
+</body>
+</html>
+

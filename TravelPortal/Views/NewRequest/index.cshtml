@@ -1,0 +1,743 @@
+﻿
+@{
+    ViewData["Title"] = "NewRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Request</title>
+
+    <style>
+
+        
+        /* Custom CSS for styling */
+        .container {
+            padding: 1px;
+            background-color: #f9f9f9;
+            border-radius: 10px;
+        }
+
+        .col-md-4 h5, .col-md-12 h5 {
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .tile-container {
+            display: flex;
+            align-items: center;
+            margin-top: 10px; /* Adjust margin as needed */
+        }
+
+        .tile {
+            cursor: pointer;
+            text-align: center;
+            padding: 10px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            width: 140px;
+            margin: 5px; /* Reduced margin for spacing */
+        }
+
+        .selected-tile {
+            border: 2px solid #007BFF;
+        }
+
+        .icon {
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .image {
+            width: 50px; /* Adjust the size of the image */
+            height: 50px; /* Adjust the size of the image */
+        }
+        .disabled-div {
+            pointer-events: none;
+            background-color: #e9ecef;
+            cursor: not-allowed;
+        }
+
+        .disabled-div:hover {
+            cursor: not-allowed;
+        }
+
+        .error{
+            border: 2px solid red;
+        }
+               
+
+        /* Style the star element within the h5 */
+        .mandatory-star {
+            color: red;
+            margin-right: 5px; /* Adjust margin as needed */
+        }
+
+        #NewTravelRequestStep2 h6{
+            margin-top:13px;
+        }
+
+            .accordion-header {
+            background-color: #f8f9fa;
+            color: black;
+            padding: 10px;
+            cursor: pointer;
+            text-align: center;
+            border:2px solid #ccc;
+
+        }
+
+        .accordion-content {
+            padding: 10px;
+        }
+
+        .btnBlue{
+            background-color:#007BFF;
+        }
+                #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+        .input-group {
+    position: relative;
+}
+
+.input-group-append {
+     display:none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    padding: 0;
+}
+
+        .input-group-appendNew {
+            display:none;
+            position: absolute;
+            top: 8px;
+            bottom: 0;
+            right: 0;
+            z-index: 2;
+            padding: 0;
+        }
+
+.input-group-text {
+    border: none !important;
+    background-color: transparent !important;
+            cursor: pointer !important;
+    padding:2.6rem .95rem !important;
+}
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+</head>
+<body>
+    <div id="preloader" class="text-center" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <p>Loading...</p>
+    </div>
+    <input  type="hidden" id="hdnRequestToken"/>
+    <input type="hidden" id="hdnLoggedInEmail" value="@ViewData["LoggedInEmail"]" />
+    <input  type="hidden" id="hdnEmpNumber"/>
+    <input  type="hidden" id="hdnEmpName"/>
+      <input  type="hidden" id="hdnDirector"/>
+       <input  type="hidden" id="hdnIsDirectorApprovalNeeded"/>
+
+    <div id="NewTravelRequestStep1" class="container mt-4">
+           @*<h1 class="mb-4 text-center">New Travel Request</h1>*@
+        <div class="row">
+            <div class="col-md-4">
+                <h5>Travel Mode <span class="mandatory-star">*</span></h5>
+                <div class="tile-container " id="divForTravelMode">
+                   
+                    
+                    <div class="tile tilediv Travel-Mode mandatoryFields" id="tileTrain"
+                    onclick="selectTile('Train','Travel-Mode')" data-TravelModeId="2">
+                        <img src="~/images/train.png" alt="Train" class="image">
+                        <h6>Train</h6>
+                    </div>
+                    <div class="tile tilediv Travel-Mode mandatoryFields" id="tileAir" 
+                    onclick="selectTile('Air','Travel-Mode')" data-TravelModeId="1">
+                        <img src="~/images/airplane.png" alt="Air" class="image">
+                        <h6>Air</h6>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Ticket Booked By <span class="mandatory-star">*</span></h5>
+                <div class="tile-container" id="divTicketBookedBy">
+                    <div class="tile tilediv Ticket-Booked-By mandatoryFields" id="tileTravelDesk"
+                         onclick="selectTile('TravelDesk', 'Ticket-Booked-By')" data-TravelBookedById="1">
+                        <img src="~/images/travel-desk.png" alt="TravelDesk" class="image">
+                        <h6>Travel Desk</h6>
+                    </div>
+                    <div class="tile tilediv Ticket-Booked-By mandatoryFields" id="tileSelf" 
+                        onclick="selectTile('Self','Ticket-Booked-By')" data-TravelBookedById="2">
+                        <img src="~/images/self.png" alt="Self" class="image">
+                        <h6>Self</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <h5>Travel Destination <span class="mandatory-star">*</span></h5>
+                <div class="tile-container " id="divTravelDestination">
+                    <div class="tile tilediv Travel-Destination mandatoryFields" id="tileDomestic"
+                        onclick="selectTile('Domestic','Travel-Destination')"
+                         data-TravelDestinationId="1">
+                        <img src="~/images/domestic.png" alt="Domestic" class="image">
+                        <h6>Domestic</h6>
+                    </div>
+                    <div class="tile tilediv Travel-Destination mandatoryFields" id="tileInternational"
+                         onclick="selectTile('International','Travel-Destination')"
+                        data-TravelDestinationId="2">
+                        <img src="~/images/globe.png" alt="International" class="image">
+                        <h6>International</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h5 class="text-center">Travel Type <span class="mandatory-star">*</span></h5>
+                <div class="tile-container justify-content-center" id="divTravelType">
+                    <div class="tile travel-type tilediv mandatoryFields" id="tileOneWay" 
+                    onclick="selectTile('OneWay', 'travel-type')"  data-TravelTypeId="1">
+                        <i class="fas fa-paper-plane icon"></i>
+                        <h6>One Way</h6>
+                    </div>
+                    <div class="tile travel-type tilediv mandatoryFields" id="tileRoundTrip"
+                         onclick="selectTile('RoundTrip', 'travel-type')"  data-TravelTypeId="2">
+                        <i class="fas fa-exchange-alt icon"></i>
+                        <h6>Round Trip</h6>
+                    </div>
+                    <div class="tile travel-type tilediv mandatoryFields" id="tileMultiCity"
+                         onclick="selectTile('MultiCity', 'travel-type')"  data-TravelTypeId="3">
+                        <i class="fas fa-map-marked-alt icon"></i>
+                        <h6>Multi City</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-4 rowForSourceAndDestination rowForSourceAndDestinationDummy" id="addMoreRowContents" style="display:none">
+            <div class="col-md-3">
+                <h6>Source <span class="mandatory-star">*</span></h6>
+                <select class="form-select mandatoryFields travelFrom FillCities" id="selectSource" disabled>
+                            <option value="">Please Select</option>
+                        </select>
+               @* <input id="" type="text"
+                    class="form-control mandatoryFields ui-autocomplete-input travelFrom" autocomplete="off">*@
+            </div>
+            <div class="col-md-3">
+                <h6>Destination <span class="mandatory-star">*</span></h6>
+                <select class="form-select mandatoryFields travelTo FillCities" id="selectDestination" disabled>
+                            <option value="">Please Select</option>
+                        </select>
+@*                <input type="text" id="" class="form-control mandatoryFields ui-autocomplete-input travelTo" autocomplete="off">
+*@           
+</div>
+            <div class="col-md-3 clanederIconClickRow">
+                <h6>Departure Date <span class="mandatory-star">*</span></h6>
+                <input id="" class="form-control mandatoryFields travelDepartureDate"
+                name="travelDepartureDate" type="text">
+
+                <div class="input-group-append">
+                    <span class="input-group-text">
+                        <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-3 deletecurrentrowMulticity" id="" style="">
+                <button type="button" class="btn btn-danger mt-4"
+                id="" onclick="DeleteCurrentRow(this)">-</button>
+            </div>
+
+        </div>
+
+        @if(Model.MultiCityData.Count > 0)
+        {
+            @for(int i = 0; i < Model.MultiCityData.Count; i++)
+        {
+
+                   <div class="row mt-4 rowForSourceAndDestination">
+                        <div class="col-md-3">
+                            <h6>Source <span class="mandatory-star">*</span></h6>
+                            <select class="form-select mandatoryFields travelFrom FillCities" 
+                            id="selectSource">
+                              <option value="">Please Select</option>
+                              <option value="" selected>@Model.MultiCityData[i].travelFrom</option>
+                            </select>
+@*                            <input id="" value="@Model.MultiCityData[i].travelFrom" type="text" class="form-control mandatoryFields ui-autocomplete-input travelFrom" autocomplete="off">
+*@                        </div>
+                        <div class="col-md-3">
+                            <h6>Destination <span class="mandatory-star">*</span></h6>
+                            
+                       <select class="form-select mandatoryFie lds travelTo FillCities" id="selectDestination">
+                            <option value="">Please Select</option>
+                            <option value="" selected>@Model.MultiCityData[i].travelTo</option>
+                        </select>
+@*                    <input type="text" value="@Model.MultiCityData[i].travelTo" id="" class="form-control mandatoryFields ui-autocomplete-input travelTo" autocomplete="off">
+*@                        </div>
+                        <div class="col-md-3 clanederIconClickRow">
+                            <h6>Departure Date <span class="mandatory-star">*</span></h6>
+                            <input id="" value="@Model.MultiCityData[i].travelDepartureDate" 
+                            class="form-control mandatoryFields travelDepartureDate" name="travelDepartureDate" type="text">
+
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                </span>
+                            </div>
+                        </div>
+                        @if(i == 0){
+                             <div class="col-md-3 addMoreButtonSection" id="addMoreButtonSection" style="display: none;">
+                                <button type="button" class="btn btn-danger mt-4" id="addMoreButton">+</button>
+                            </div>
+                        }else{
+                    <div class="col-md-3 deletecurrentrowMulticity" id="" style="">
+                            <button type="button" class="btn btn-danger mt-4" id="" onclick="DeleteCurrentRow(this)">-</button>
+                        </div>
+                        }
+                       
+
+                    </div>
+            
+        }
+        }        
+        else{
+
+            <div class="row mt-4 rowForSourceAndDestination" id="row3">
+                <div class="col-md-3">
+                    <h6>Source <span class="mandatory-star">*</span></h6>
+                    <select class="form-select mandatoryFields travelFrom FillCities travleFromFirst" id="selectSource" disabled>
+                            <option value="">Please Select</option>
+                             @if(Model.strtravelFrom != null && Model.strtravelFrom != ""){
+                                 <option value="" selected>@Model.strtravelFrom</option>
+                            }
+                        </select>
+@*                    <input id="travelFrom" type="text" class="form-control mandatoryFields travelFrom">
+*@               
+</div>
+                <div class="col-md-3">
+                    <h6>Destination <span class="mandatory-star">*</span></h6>
+                    <select class="form-select mandatoryFields travelTo FillCities travelToFirst" id="selectDestination" disabled>
+                            <option value="">Please Select</option>
+                             @if(Model.strtravelTo != null && Model.strtravelTo != ""){
+                                 <option value="" selected>@Model.strtravelTo</option>
+                            }
+                           
+                        </select> 
+                </div>
+                <div class="col-md-3 clanederIconClickRow">
+                    <h6>Departure Date <span class="mandatory-star">*</span></h6>
+                    <input id="travelDepartureDate" class="form-control mandatoryFields travelDepartureDate" 
+                    name="travelDepartureDate" type="text" />
+
+                    <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 clanederIconClickRow" id="returnDateColumn">
+                    <h6>Return Date <span class="mandatory-star">*</span></h6>
+                    <input id="travelReturnDate" class="form-control mandatoryFields" name="travelReturnDate" type="text" />
+                    <div class="input-group-append">
+                        <span class="input-group-text">
+                            <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                        </span>
+                    </div>
+                </div>
+                <div class="col-md-3 addMoreButtonSection" id="addMoreButtonSection" style="display: none;">
+                    <button type="button" class="btn btn-danger mt-4" id="addMoreButton">+</button>
+                </div>
+            </div>
+        }
+
+
+    </div>
+
+    <div id="NewTravelRequestStep2" class="container mt-4" style="display: none;">
+        <!-- Your existing content for Step 2 -->
+        <!-- Added accordion -->
+        <div class="accordion">
+            <div class="accordion-header" id="employeeSectionHeader">
+                Click For Employee Information
+                <i class="fas fa-angle-double-down"></i>
+            </div>
+            <div class="accordion-content" id="employeeSectionContent">
+                <div class="row" id="stage2-row2">
+                    <div class="col-md-4">
+                        <h6>Employee No: <span class="mandatory-star">*</span></h6>
+                        <input type="text" class="form-control mandatoryFields internalempField" id="employeeNo" placeholder="Employee No"
+                               value="" maxlength="6">
+                    </div>
+                    <div class="col-md-4">
+                        <h6  id="hdrEmpName">Employee Name:</h6>
+                        <input type="text" class="form-control internalempField" id="employeeName" placeholder="Employee Name"
+                               value="">
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Grade:</h6>
+                        <input type="text" class="form-control internalempField" id="grade" placeholder="Grade" Value="">
+                    </div>
+                </div>
+
+                <!-- Row 3 -->
+                <div class="row" id="stage2-row3">
+                    <div class="col-md-4">
+                        <h6>Position:</h6>
+                        <input type="text" class="form-control internalempField" id="position" placeholder="Position">
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Department:</h6>
+                        <input type="text" class="form-control internalempField" id="department" placeholder="Department">
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Location:</h6>
+                        <input type="text" class="form-control internalempField" id="location" placeholder="Location">
+                    </div>
+                </div>
+
+                <!-- Row 4 -->
+                <div class="row" id="stage2-row4">
+                    <div class="col-md-4">
+                        <h6>Mobile Number: <span class="mandatory-star">*</span></h6>
+                        <input type="number" class="form-control mandatoryFields" id="mobileNumber" 
+                        placeholder="Mobile Number" required>
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Age:</h6>
+                        <input type="text" class="form-control" id="age" placeholder="Age">
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Select Gender:</h6>
+                        <select class="form-select mandatoryFields internalempField" id="selectGender">
+                            <option value="">Select Gender</option>
+                            <option value="1">Male</option>
+                            <option value="2">Female</option>
+                            <option value="3">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row" id="stage2-row6">
+                    <div class="col-md-4">
+                        <h6>Manager 1:</h6>
+                        <input type="text" class="form-control internalempField" id="manager1" placeholder="Manager 1">
+                    </div>
+                    <div class="col-md-4">
+                        <h6>Manager 2:</h6>
+                        <input type="text" class="form-control internalempField" id="manager2" placeholder="Manager 2">
+                    </div>
+                    <div class="col-md-4 NormalDirectorRow">
+                        <h6>Director:</h6>
+                        <select class="form-select mandatoryFields" id="selectDirector">
+                    
+                    <!-- Add more currency options here -->
+                       </select>
+                       @* <input type="text" class="form-control" id="director" placeholder="Director" disabled>*@
+                    </div>
+                    <div class="col-md-4 ManagingDirectorRow" style="display:none">
+                        <h6>Managing Director:</h6>
+                        <input type="text" class="form-control" id="managingdirector" disabled value="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" id="stage2-row1">
+
+            <div class="row" id="stage2-row1">
+                <div class="col-md-6">
+                    <h6 class="d-inline-block">Requested for <span class="mandatory-star">*</span></h6>
+                    <div class="form-check d-inline-block ml-3">
+                        <input class="form-check-input mandatoryFields" type="radio" name="requestedFor" id="radioSelf" value="1">
+                        <label class="form-check-label" for="radioSelf">Self</label>
+                    </div>
+                    <div class="form-check d-inline-block ml-3">
+                        <input class="form-check-input mandatoryFields" type="radio" name="requestedFor" id="radioOnBehalfOf" value="2">
+                        <label class="form-check-label" for="radioOnBehalfOf">On Behalf Of</label>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <h6 class="d-inline-block">Employee Type <span class="mandatory-star">*</span></h6>
+                    <div class="form-check d-inline-block ml-3">
+                        <input class="form-check-input mandatoryFields" type="radio" disabled
+                        name="employeeType" checked id="radioInternal" value="1">
+                        <label class="form-check-label" for="radioInternal">Internal Employee</label>
+                    </div>
+                    <div class="form-check d-inline-block ml-3">
+                        <input class="form-check-input mandatoryFields" type="radio" disabled
+                        name="employeeType" id="radioNonEmployee" value="2">
+                        <label class="form-check-label" for="radioNonEmployee">Non Employee</label>
+                    </div>
+                </div>               
+            </div>
+
+  @*          <div class="col-md-6">
+                <h6>Requested for <span class="mandatory-star">*</span></h6>
+                <div class="form-check">
+                    <input class="form-check-input mandatoryFields" type="radio" name="requestedFor" id="radioSelf" value="1">
+                    <label class="form-check-label" for="radioSelf">Self</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input mandatoryFields" type="radio" name="requestedFor" id="radioOnBehalfOf" value="2">
+                    <label class="form-check-label" for="radioOnBehalfOf">On Behalf Of</label>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h6>Employee Type <span class="mandatory-star">*</span></h6>
+                <div class="form-check">
+                    <input class="form-check-input mandatoryFields" type="radio" name="employeeType" id="radioInternal" value="1">
+                    <label class="form-check-label" for="radioInternal">Internal Employee</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input mandatoryFields" type="radio" name="employeeType" id="radioNonEmployee" value="2">
+                    <label class="form-check-label" for="radioNonEmployee">Non Employee</label>
+                </div>
+            </div>*@
+        </div>
+
+        <!-- Row 2 -->
+        <!-- Row 5 -->
+        <div class="row" id="stage2-row5">
+            <div class="col-md-4">
+                <h6>Purpose: <span class="mandatory-star">*</span></h6>
+                <select class="form-select mandatoryFields" id="selectPurpose">
+                    
+                </select>
+            </div>
+            <div class="col-md-4">
+                <h6>Travel Days:</h6>
+                <input type="number" class="form-control" id="travelDays" placeholder="Travel Days">
+            </div>
+
+              <div class="col-md-4">
+                <h6>Advance Amount:</h6>
+                <input type="number" class="form-control" id="advanceAmount" placeholder="Advance Amount">
+            </div>
+        </div>
+
+         <div class="row" id="rowForPassport" style="display:none">
+             <div class="col-md-3">
+                <h6>Name on Passport:</h6>
+                <input type="text" class="form-control mandatoryFields BlockSpecialCharacters" id="NameonPassport" placeholder="Name on Passport">
+            </div>
+             <div class="col-md-3">
+                <h6>Passport Number:</h6>
+                <input type="text" class="form-control mandatoryFields BlockSpecialCharacters" id="PassportNumber" placeholder="Passport Number">
+            </div>
+            <div class="col-md-3 clanederIconClickRow">
+                <h6>Passport Issue Date:</h6>
+                <input type="text" class="form-control mandatoryFields" id="PassportIssueDate" placeholder="Passport Issue Date">
+                 <div class="input-group-appendNew">
+                    <span class="input-group-text">
+                        <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-3 clanederIconClickRow">
+                <h6>Passport Expiry Date:</h6>
+                <input type="text" class="form-control mandatoryFields" id="PassportExpiryDate" placeholder="Passport Expiry Date">
+                <div class="input-group-appendNew">
+                    <span class="input-group-text">
+                        <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                    </span>
+                </div>
+            </div>
+        </div>
+
+         <div class="row" id="rowForNominee" style="display:none">
+             <div class="col-md-3">
+                <h6>Name of Nominee:</h6>
+                <input type="text" class="form-control mandatoryFields BlockSpecialCharacters" id="NameofNominee" placeholder="Name of Nominee">
+            </div>
+             <div class="col-md-3">
+                <h6>Relation with Nominee:</h6>
+                <input type="text" class="form-control mandatoryFields BlockSpecialCharacters" id="RelationwithNominee" placeholder="Relation with Nominee">
+            </div>
+            <div class="col-md-3 clanederIconClickRow">
+                <h6>DOB of Nominee</h6>
+                <input type="text" class="form-control mandatoryFields" id="DOBofNominee" placeholder="DOB of Nominee">
+                 <div class="input-group-appendNew">
+                    <span class="input-group-text">
+                        <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                    </span>
+                </div>
+            </div>
+
+            <div class="col-md-3 clanederIconClickRow">
+                <h6>Gender of Nominee:</h6>
+                <select class="form-select mandatoryFields" id="selectGenderofNominee">
+                    <option value="">Select Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Other</option>
+                </select>
+
+            </div>
+
+        </div>
+
+        <!-- Row 6 -->
+        <!-- Row 7 -->
+        <div class="row" id="stage2-row7">
+          
+           
+            <div class="col-md-8">
+                <h6>Project: <span class="mandatory-star">*</span></h6>
+                <select class="form-select mandatoryFields" id="selectProjectCode">
+                   @* <option value="">Select Project Code</option>*@
+                
+                    <!-- Add more project code options here -->
+                </select>
+            </div>
+
+            <div class="col-md-4">
+                <h6>Currency:</h6>
+                <select class="form-select mandatoryFields" id="selectCurrency">
+                    
+                    <!-- Add more currency options here -->
+                </select>
+            </div>
+        </div>
+
+         <!-- Row 8 -->
+        <div class="row" id="stage2-row8">
+            <div class="col-md-12">
+                <h6>Comments:</h6>
+                <textarea class="form-control" id="comments" rows="2" placeholder="Comments"></textarea>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <div class="row mt-4">
+        <div class="col-md-12 text-center">
+            @*<button type="button" class="btn btn-primary mt-3" style="display:none" id="previousButton">
+                <span aria-hidden="true" class="mr-2">&laquo;</span> <!-- Bootstrap "Previous" icon -->
+            </button>
+            <button type="button" class="btn btn-primary mt-3" id="previousButtonStage2" style="display:none" 
+            onclick="PreviousButtonStage2()">
+                <span aria-hidden="true" class="mr-2">&laquo;</span> <!-- Bootstrap "Previous" icon -->
+            </button>
+            <button type="button" class="btn btn-primary mt-3" id="nextButton" onclick="ClickNextStage1()">
+                <span aria-hidden="true" class="mr-2">&raquo;</span> <!-- Bootstrap "Previous" icon -->
+            </button>
+            <button type="button" class="btn btn-primary mt-3" id="nextButtonStage2" style="display:none" onclick="ClickNextStage2()">
+                <span aria-hidden="true" class="mr-2">&raquo;</span> <!-- Bootstrap "Previous" icon -->
+            </button>
+                <button type="button" class="btn btn-danger" id="btnSubmit" onclick="SubmitTravelRequest()" style="display:none">Submit</button>*@
+
+            <button type="button" class="btn btn-danger ClassForHideOnSubmit" style="display:none" id="previousButton" onclick="PreviousButtonStage1()"><span aria-hidden="true" class="mr-2">&laquo;</span></button>
+            <button type="button" class="btn btn-danger" style="display:none" id="previousButtonStage2" onclick="PreviousButtonStage2()"><span aria-hidden="true" class="mr-2">&laquo;</span></button>
+            <button type="button" class="btn btn-danger ClassForHideOnSubmit" id="nextButton" onclick="ClickNextStage1()"><span aria-hidden="true" class="mr-2">&raquo;</span></button>
+            <button type="button" class="btn btn-danger ClassForHideOnSubmit" id="nextButtonStage2" style="display:none" onclick="ClickNextStage2()"><span aria-hidden="true" class="mr-2">&raquo;</span></button>
+            <button type="button" class="btn btn-danger" id="btnSubmit" onclick="SubmitTravelRequest()" style="display:none">Submit</button>
+
+          
+        </div>
+    </div>
+
+    <script src="~/js/NewRequest.js" asp-append-version="true"> </script>
+<script>
+
+  
+          $("#divForTravelMode").find(`[data-travelmodeid='@Model.strTravelMode']`).addClass("selected-tile")
+ 
+          $("#divTicketBookedBy").find(`[data-travelbookedbyid='@Model.strTicketBookedBy']`).addClass("selected-tile")
+ 
+          $("#divTravelDestination").find(`[data-traveldestinationid='@Model.strTravelDestination']`).addClass("selected-tile")
+ 
+                    $("#divTravelType").find(`[data-traveltypeid='@Model.strdivTravelType']`).addClass("selected-tile")
+ 
+             @*       $("#travelFrom").val("@Model.strtravelFrom");
+ 
+                    $("#travelTo").val("@Model.strtravelTo");*@
+ 
+ 
+      @*          $("#travelFrom").val("@Model.strtravelFrom");
+                  $("#travelTo").val("@Model.strtravelTo");*@
+
+                $("#travelDepartureDate").val("@Model.strtravelDepartureDate");
+                $("#travelReturnDate").val("@Model.strttravelReturnDate");
+                //$("#employeeNo").val("@Model.stremployeeNo");
+                //$("#employeeName").val("@Model.stremployeeName");
+                $("#grade").val("@Model.strgrade");
+                $("#travelDays").val("@Model.strtravelDays");
+                $("#advanceAmount").val("@Model.stradvanceAmount");
+
+                $("#department").val("@Model.strdepartment");
+                $("#location").val("@Model.strlocation");
+
+                $("#mobileNumber").val("@Model.strmobileNumber");
+
+                // Example for dropdowns
+                $("#selectGender").attr("data-value","@Model.strselectGender")
+                $("#selectPurpose").attr("data-value", "@Model.strselectPurpose");
+                $("#selectProjectCode").attr("data-value","@Model.strselectProjectCode");
+                $("#selectCurrency").attr("data-value", "@Model.selectCurrency");
+                $("#selectSource").attr("data-value", "@Model.strtravelFrom");
+                $("#selectDestination").attr("data-value", "@Model.strtravelTo");
+ 
+                // Example for radio buttons
+                $("input[name='requestedFor'][value='@Model.strRequestedFor']").prop("checked", true);
+                $("input[name='employeeType'][value='@Model.strEmpType']").prop("checked", true);
+               $("#position").val("@Model.strEmpType");
+                   $("#comments").text("@Model.strcomments");
+        $("#NameonPassport").val("@Model.strNameonPassport");
+        $("#PassportNumber").val("@Model.strPassportNumber");
+                 $("#PassportIssueDate").val("@Model.strPassportIssueDate");
+        $("#PassportExpiryDate").val("@Model.strPassportExpiryDate");
+       
+              $("#hdnEmpNumber").val("@Model.stremployeeNo");
+
+              $("#hdnEmpName").val("@Model.stremployeeName");
+              $("#hdnDirector").val("@Model.strdirector");
+
+              $("NameofNominee").val("@Model.strNameofNominee");
+              $("#RelationwithNominee").val("@Model.strRelationwithNominee");
+              $("#DOBofNominee").val("@Model.strDOBofNominee");
+              $("#selectGenderofNominee").attr("data-value","@Model.strGenderofNominee")
+              $("#hdnIsDirectorApprovalNeeded").val("@Model.IsDirectorApprovalNeeded"); 
+              $("#age").val("@Model.strage");
+        $("#manager1").val("@Model.strmanager1");
+        $("#manager2").val("@Model.strmanager2");
+
+
+
+    </script>
+    <script src="~/js/common.js" asp-append-version="true"></script>
+</body>
+</html>

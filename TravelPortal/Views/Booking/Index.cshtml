@@ -1,0 +1,1117 @@
+﻿@using Microsoft.AspNetCore.Http;
+@model Booking
+
+@{
+    ViewData["Title"] = "NewRequest";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Portal Dashboard</title>
+@*<link href="~/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/js/jquery-3.5.1.min.js"></script>
+<script src="~/js/bootstrap.min.js"></script>
+<script src="~/js/jquery.datatables.min.js"></script>
+<script src="~/js/datatables.responsive.min.js"></script>
+<link href="~/css/jquery.datatables.min.css" rel="stylesheet" />
+    <link href="~/css/all.css" rel="stylesheet" />*@
+
+
+@* <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+*@    <style>
+        /* Your custom styles go here */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #fff !important;
+            color: #fff;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            border: 2px solid #ccc;
+            display: flex;
+        }
+
+        .navbar-left {
+            flex: 1;
+            display: flex;
+            justify-content: left;
+        }
+
+        .navbar-middle {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-right {
+            flex: 1;
+            display: flex;
+            justify-content: right;
+        }
+
+        /* Style the logos within each container */
+        .navbar img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .navbar-right {
+            flex: none;
+        }
+
+        .content {
+            transition: margin-left .5s;
+            padding: 16px;
+            background-color: #f8f9fa;
+            min-height: 100vh;
+        }
+
+        .sidebar {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidebar a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 20px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidebar a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidebar .closebtn {
+                position: absolute;
+                top: 5px;
+                right: 25px;
+                font-size: 30px;
+            }
+
+        .openbtn {
+            font-size: 30px;
+            cursor: pointer;
+            background-color: #fff;
+            color: black;
+            padding: 10px 15px;
+            border: none;
+        }
+
+            .openbtn:hover {
+                /* background-color: #ccc; */
+            }
+
+              #preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.5);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+        }
+
+          .error{
+            border: 2px solid red !important;
+        }
+
+                .input-group-append {
+                     display:none;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            z-index: 2;
+            padding: 0;
+            right:5px;
+        }
+.input-group-text {
+    border: none !important;
+    background-color: transparent !important;
+            cursor: pointer !important;
+    padding:2.6rem .95rem !important;
+}
+
+         .mandatory-star {
+                    color: red;
+                    margin-right: 5px; /* Adjust margin as needed */
+                }
+
+        .input-group-text {
+            border: none !important;
+            background-color: transparent !important;
+            cursor: pointer !important;
+            padding: 2.6rem .95rem !important;
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+    </style>
+    <style id="inert-style">
+        [inert] {
+            pointer-events: none;
+            cursor: default;
+        }
+
+            [inert],
+            [inert] * {
+                -webkit-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+            }
+    </style>
+</head>
+<body>
+    <div id="preloader" class="text-center" style="display: none;">
+        <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+        <p>Loading...</p>
+    </div>
+    <div id="content" class="content">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Travel Desk Booking</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.min.css">
+        <style>
+            .accordion-header {
+                background-color: #f8f9fa;
+                color: black;
+                padding: 10px;
+                cursor: pointer;
+                text-align: center;
+                border: 2px solid #ccc;
+            }
+
+            .accordion-content {
+                padding: 10px;
+            }
+            .border-secondaryNew {
+                background-color: #f8f9fa;
+                color: black;
+                padding: 10px;
+                cursor: pointer;
+
+                border: 2px solid #ccc;
+            }
+        </style>
+
+        <input type="hidden" id="hdnEmployeeName" value="@Model.stremployeeName"/>
+        <input type="hidden" id="hdnEmployeeEmail" value="@Model.stremployeeEmail"/>
+
+        <div class="container border-secondaryNew rounded p-3 mb-4">
+            <h3 class="mb-4 text-center">Traveller Information</h3>
+            <div class="row">
+                <div class="col-md-3">
+                    <h6>Employee Name</h6>
+                    <label>@Model.stremployeeName</label>
+                </div>
+                <div class="col-md-3">
+                    <h6>Employee Number</h6>
+                    <label>@Model.stremployeeNo</label>
+                </div>
+                <div class="col-md-3">
+                    <h6>Request ID</h6>
+                    <label>@Model.strTravelRequestNumber</label>
+                </div>
+                <div class="col-md-3">
+                    <h6>Travel Type</h6>
+                    <label>@Model.strTravelType</label>
+                </div>
+
+            </div>
+
+            
+
+            @if (Model.strTravelDestination == "2"){//International
+                <hr>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Name on Passport</h6>
+                        <label>@Model.strNameonPassport</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Passport Number</h6>
+                        <label>@Model.strPassportNumber</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Passport Issue Date</h6>
+                        <label>@Model.strPassportIssueDate</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Passport Expiry Date</h6>
+                        <label>@Model.strPassportExpiryDate</label>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Name of Nominee</h6>
+                        <label>@Model.strNameofNominee</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Relation with Nominee</h6>
+                        <label>@Model.strRelationwithNominee</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>DOB of Nominee</h6>
+                        <label>@Model.strDOBofNominee</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Gender of Nominee</h6>
+                        <label>@Model.strGenderofNominee</label>
+                    </div>
+                </div>
+            }
+          
+
+            @if (Model.MultiCityData.Count > 0)
+            {
+                @for (int i = 0; i < Model.MultiCityData.Count; i++)
+                {
+                    <hr>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <h6>Source</h6>
+                            <label>@Model.MultiCityData[i].travelFrom</label>
+                        </div>
+                        <div class="col-md-3">
+                            <h6>Destination</h6>
+                            <label>@Model.MultiCityData[i].travelTo</label>
+                        </div>
+                        <div class="col-md-3">
+                            <h6>Departure Date</h6>
+                            <label>@Model.MultiCityData[i].travelDepartureDate</label>
+                        </div>
+                    </div>
+                }
+
+            }
+            else{
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Source</h6>
+                        <label>@Model.strtravelFrom</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Destination</h6>
+                        <label>@Model.strtravelTo</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Departure Date</h6>
+                        <label>@Model.strtravelDepartureDate</label>
+                    </div>
+                    @if(Model.strttravelReturnDate != null &&
+                    Model.strttravelReturnDate != ""){
+                        <div class="col-md-3">
+                        <h6>Return Date</h6>
+                        <label>@Model.strttravelReturnDate</label>
+                    </div>
+                    }
+                    
+                </div>
+            }
+
+            <div class="row">
+                    <div class="col-md-3">
+                        <h6>Purpose</h6>
+                        <label>@Model.strPurpose</label>
+                    </div>
+                    <div class="col-md-3">
+                        <h6>Job Code</h6>
+                        <label>@Model.strJobCode</label>
+                    </div>
+            </div>
+
+        </div>
+         
+      
+            @if (Model.strTravelType == "Multi City" && Model.MultiCityData.Count > 0)
+            {
+                        int cancelCount = Model.CancelledCount;
+          
+                @for (int i = 0; i < Model.MultiCityData.Count + cancelCount; i++)
+                {
+           <div class="accordion container" id="bookingSections">
+            <div class="divMainContents">
+                <div class="accordion-header employeeSectionHeader" data-section="1">
+                            @Model.MultiCityData[i].travelFrom <span> To </span>
+                            @Model.MultiCityData[i].travelTo <span> Booking </span>
+                            <i class="fas fa-angle-double-down"></i>
+                </div>
+                <div class="accordion-content employeeSectionContent" data-bookingid="0" data-section="1" style="display: none;">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="fromPlace">Source:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" disabled class="form-control mandatoryFields" value="@Model.MultiCityData[i].travelFrom" 
+                                        id="fromPlace">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="toPlace">Destination:<span class="mandatory-star">*</span></h6>
+                                <input type="text" disabled class="form-control mandatoryFields" value="@Model.MultiCityData[i].travelTo"
+                                id="toPlace">
+                            </div>
+                        </div>
+                        <div class="col-md-3 clanederIconClickRow">
+                            <div class="form-group">
+                                        <h6 for="departureDate">Departure Date:<span class="mandatory-star">*</span></h6>
+                                <input type="text" class="form-control mandatoryFields departureDate AddDatepicker" 
+                                id="departureDate-@i">
+        
+                            <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                            </span>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 clanederIconClickRow">
+                            <div class="form-group">
+                                        <h6 for="arrivalDate">Return Date:<span class="mandatory-star">*</span></h6>
+                                @if(Model.strTravelType == "Round Trip"){
+                                    <input type="text" disabled class="form-control mandatoryFields ReturnDate AddDatepicker" id="arrivalDate-@i">
+                                }
+                                else{
+                                    <input type="text" disabled class="form-control mandatoryFields" id="arrivalDate-@i">
+                                }
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar" disabled></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="travelClass">Class:<span class="mandatory-star">*</span></h6>
+                                <select class="form-control mandatoryFields" id="travelClass">
+                                    <option value="">Please Select</option>
+                                     @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                {
+                                    <option value="3">Sleeper</option>
+                                    <option value="4">AC 3 Tier</option>
+                                    <option value="5">AC 3 Economy</option>
+                                    <option value="6">AC 2 Tier</option>
+                                    <option value="7">First Class</option>
+                                    <option value="8">Chair Car</option>
+                                }
+                                else{
+                                      <option value="1">Economy</option>
+                                    <option value="2">Business </option>
+                                }
+                                  
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                   @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                        {
+                                        <h6 for="airlineNumber">Train Number:<span class="mandatory-star">*</span></h6>
+
+                                        }
+                                        else{
+                                          <h6 for="airlineNumber">Airline Number:<span class="mandatory-star">*</span></h6>
+
+                                        }
+                                <input type="text" class="form-control mandatoryFields" id="airlineNumber">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="pnrNumber">PNR Number:<span class="mandatory-star">*</span></h6>
+                                <input type="text" class="form-control mandatoryFields" id="pnrNumber">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="invoiceNumber">Invoice Number:<span class="mandatory-star">*</span></h6>
+                                <input type="text" class="form-control mandatoryFields" id="invoiceNumber">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 clanederIconClickRow">
+                            <div class="form-group">
+                                <h6 for="invoiceDate">Invoice Date:<span class="mandatory-star">*</span></h6>
+                                <input type="text" class="form-control mandatoryFields InvoiceDate AddDatepicker" id="invoiceDate-@i">
+                                <div class="input-group-append">
+                            <span class="input-group-text">
+                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                            </span>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="fare">Fare:<span class="mandatory-star">*</span></h6>
+                                <input type="number"  onkeyup="calculateTotalAmount(this)"
+                                    class="form-control mandatoryFields" id="fare">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                        <h6 for="tax">Tax:<span class="mandatory-star">*</span></h6>
+                                <input type="number" onkeyup="calculateTotalAmount(this)"
+                                    class="form-control mandatoryFields" id="tax">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="totalAmount">Total Amount:</h6>
+                                <input type="number" onkeyup="calculateNetAmount(this)"
+                                    class="form-control mandatoryFields" id="totalAmount" disabled="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="discount">Discount:</h6>
+                                <input type="number" onkeyup="calculateNetAmount(this)" 
+                                    class="form-control" id="discount">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="serviceCharges">Service Charges:<span class="mandatory-star">*</span></h6>
+                                <input type="number" onkeyup="calculateNetAmount(this)" 
+                                    class="form-control mandatoryFields" id="serviceCharges">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                        <h6 for="serviceTax">Service Tax:<span class="mandatory-star">*</span></h6>
+                                <input type="number" onkeyup="calculateNetAmount(this)" 
+                                    class="form-control mandatoryFields" id="serviceTax">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="netAmount">Net Amount:</h6>
+                                <input type="number" class="form-control mandatoryFields" id="netAmount" disabled="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                            <div class="col-md-3">
+                            <div class="form-group">
+                                        <h6 for="ticketStatus">Ticket Status:<span class="mandatory-star">*</span></h6>
+                                <select class="form-control mandatoryFields" id="ticketStatus">
+                                            <option value="">Please Select</option>
+                                            <option value="12">Booked</option>
+                                            <option value="17">Cancelled</option>
+                                           @* @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                        {
+                                         <option value="21">Pending With Admin</option>
+
+                                        }
+                                        else{
+                                          <option value="10">Pending with Travel Desk</option>
+
+                                        }*@
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                        <h6 for="attachment" class="classforAttachmentheader">Attachment:(Max-5Mb PDF file)<span class="mandatory-star">*</span></h6>
+                                <h6 for="attachment" class="classfordownloadheader" style="display:none">Download attachment</h6>
+                                        <div class="input-group">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input attachmentFiles mandatoryFields" id="attachment">
+                                        <label id="attachmentName" class="custom-file-label attachmentName" for="attachment">Choose file</label>
+                                    </div>
+                                    <a href="" class="classforfapaperclip" style="display:none">
+                                        <i class="fas fa-paperclip"></i> &nbsp;
+                                    </a>
+                                            <i class="fas fa-times deleteIcon" onclick="DeleteCurrentAttachment(this)" style="font-size:18px;color:red;display:none"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="cancellationCharges">Cancellation Charges:</h6>
+                                <input type="number" class="form-control mandatoryFields" id="cancellationCharges" disabled="">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <h6 for="comments">Comments:</h6>
+                                <textarea class="form-control" id="comments" rows="1.5"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+                }
+            }
+            else if(Model.strTravelType == "Round Trip"){
+                int cancelCount = Model.CancelledCount;
+                int totalCount = 0;
+                if(Model.IsTripCancelled){
+                    totalCount = cancelCount;
+                }
+                else{
+                    totalCount = 2 + cancelCount;
+                }
+            @for (int i = 0; i < totalCount; i++)
+            {
+                
+                <div class="accordion container" id="bookingSections">
+                    <div class="divMainContents">
+                        <div class="accordion-header employeeSectionHeader" data-section="1">
+                            @if(i == 0 || i % 2 == 0){
+                                @Model.strtravelFrom <span> To </span>
+                                @Model.strtravelTo <span> Booking </span>
+                            }
+                            else{
+                                @Model.strtravelTo <span> To </span>
+                                @Model.strtravelFrom <span> Booking </span>
+                            }
+                           
+                            <i class="fas fa-angle-double-down"></i>
+                        </div>
+                        <div class="accordion-content employeeSectionContent" data-bookingid="0" data-section="1" style="display: none;">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="fromPlace">Source:<span class="mandatory-star">*</span></h6>
+                                          @if(i == 0 || i % 2 == 0){
+                                             <input type="text" disabled class="form-control mandatoryFields"
+                                                    value="@Model.strtravelFrom" id="fromPlace">
+                                         }
+                                         else{
+                                            <input type="text" disabled class="form-control mandatoryFields"
+                                                    value="@Model.strtravelTo" id="fromPlace">
+                                         }
+                                        
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="toPlace">Destination:<span class="mandatory-star">*</span></h6>
+                                         @if(i == 0){
+                                             <input type="text" disabled class="form-control mandatoryFields"
+                                                    value="@Model.strtravelTo" id="toPlace">
+                                         }
+                                         else{
+                                            <input type="text" disabled class="form-control mandatoryFields"
+                                                    value="@Model.strtravelFrom" id="toPlace">
+                                         }
+                                 
+                                    </div>
+                                </div>
+                                <div class="col-md-3 clanederIconClickRow">
+                                    <div class="form-group">
+                                        <h6 for="departureDate">Departure Date:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields departureDate AddDatepicker" id="departureDate-@i">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 clanederIconClickRow">
+                                    <div class="form-group">
+                                        <h6 for="arrivalDate">Return Date:<span class="mandatory-star">*</span></h6>
+                                        @if (Model.strTravelType == "Round Trip")
+                                        {
+                                            <input type="text" disabled class="form-control mandatoryFields ReturnDate AddDatepicker" id="arrivalDate-@i">
+                                        }
+                                        else
+                                        {
+                                            <input type="text" disabled class="form-control mandatoryFields" id="arrivalDate-@i">
+                                        }
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar" disabled></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="travelClass">Class:<span class="mandatory-star">*</span></h6>
+                                        <select class="form-control mandatoryFields" id="travelClass">
+                                            <option value="">Please Select</option>
+                                                @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                {
+                                    <option value="3">Sleeper</option>
+                                    <option value="4">AC 3 Tier</option>
+                                    <option value="5">AC 3 Economy</option>
+                                    <option value="6">AC 2 Tier</option>
+                                    <option value="7">First Class</option>
+                                    <option value="8">Chair Car</option>
+                                }
+                                else{
+                                            <option value="1">Economy</option>
+                                            <option value="2">Business </option>
+                                }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                        {
+                                            <h6 for="airlineNumber">Train Number:<span class="mandatory-star">*</span></h6>
+
+                                        }else{
+                                            <h6 for="airlineNumber">Airline Number:<span class="mandatory-star">*</span></h6>
+
+                                        }
+                                        <input type="text" class="form-control mandatoryFields" id="airlineNumber">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="pnrNumber">PNR Number:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields" id="pnrNumber">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="invoiceNumber">Invoice Number:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields" id="invoiceNumber">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 clanederIconClickRow">
+                                    <div class="form-group">
+                                        <h6 for="invoiceDate">Invoice Date:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields InvoiceDate AddDatepicker" id="invoiceDate-@i">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="fare">Fare:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateTotalAmount(this)"
+                                       class="form-control mandatoryFields" id="fare">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="tax">Tax:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateTotalAmount(this)"
+                                       class="form-control mandatoryFields" id="tax">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="totalAmount">Total Amount:</h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)"
+                                       class="form-control mandatoryFields" id="totalAmount" disabled="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="discount">Discount:</h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)"
+                                       class="form-control" id="discount">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="serviceCharges">Service Charges:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)"
+                                       class="form-control mandatoryFields" id="serviceCharges">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="serviceTax">Service Tax:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)"
+                                       class="form-control mandatoryFields" id="serviceTax">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="netAmount">Net Amount:</h6>
+                                        <input type="number" class="form-control mandatoryFields" id="netAmount" disabled="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="ticketStatus">Ticket Status:<span class="mandatory-star">*</span></h6>
+                                        <select class="form-control mandatoryFields" id="ticketStatus">
+                                            <option value="">Please Select</option>
+                                            <option value="12">Booked</option>
+                                            <option value="17">Cancelled</option>
+                                           @* @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                        {
+                                         <option value="21">Pending With Admin</option>
+
+                                        }
+                                        else{
+                                          <option value="10">Pending with Travel Desk</option>
+
+                                        }*@
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="attachment">Attachment:(Max-5Mb PDF file)<span class="mandatory-star">*</span></h6>
+                                        <div class="input-group">
+                                            <div class="custom-file">
+                                                <input type="file" class="custom-file-input attachmentFiles mandatoryFields" id="attachment">
+                                                <label class="custom-file-label attachmentName" for="attachment">Choose file</label>
+                                            </div>
+                                            <a href="" class="classforfapaperclip" style="display:none">
+                                        <i class="fas fa-paperclip"></i> &nbsp;
+                                    </a>
+                                            <i class="fas fa-times deleteIcon" onclick="DeleteCurrentAttachment(this)" style="font-size:18px;color:red;display:none"></i>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="cancellationCharges">Cancellation Charges:</h6>
+                                        <input type="number" class="form-control mandatoryFields" id="cancellationCharges" disabled="">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="comments">Comments:</h6>
+                                        <textarea class="form-control" id="comments" rows="1.5"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+
+            }
+        }
+        else{
+
+            int cancelCount = Model.CancelledCount;
+             int totalCount = 0;
+                if(Model.IsTripCancelled){
+                    totalCount = cancelCount;
+                }
+                else{
+                    totalCount = 1 + cancelCount;
+                }
+            @for (int i = 0; i < totalCount; i++)
+            {
+
+                <div class="accordion container" id="bookingSections">
+                    <div class="divMainContents">
+                        <div class="accordion-header employeeSectionHeader">
+                            @Model.strtravelFrom <span> To </span>
+                            @Model.strtravelTo <span> Booking </span>
+                            <i class="fas fa-angle-double-down"></i>
+                        </div>
+                        <div class="accordion-content employeeSectionContent" data-bookingid="0" data-section="1" style="display: none;">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="fromPlace">Source:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" disabled class="form-control mandatoryFields"
+                                       value="@Model.strtravelFrom" id="fromPlace">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="toPlace">Destination:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" disabled class="form-control mandatoryFields" 
+                                    value="@Model.strtravelTo" id="toPlace">
+                                    </div>
+                                </div>
+                                <div class="col-md-3 clanederIconClickRow">
+                                    <div class="form-group">
+                                        <h6 for="departureDate">Departure Date:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields departureDate AddDatepicker" id="departureDate-@i">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 clanederIconClickRow">
+                                    <div class="form-group">
+                                        <h6 for="arrivalDate">Return Date:<span class="mandatory-star">*</span></h6>
+                                        @if (Model.strTravelType == "Round Trip")
+                                        {
+                                            <input type="text" disabled class="form-control mandatoryFields ReturnDate AddDatepicker" id="arrivalDate">
+                                        }
+                                        else
+                                        {
+                                            <input type="text" disabled class="form-control mandatoryFields" id="arrivalDate">
+                                        }
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar" disabled></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="travelClass">Class:<span class="mandatory-star">*</span></h6>
+                                        <select class="form-control mandatoryFields" id="travelClass">
+                                            <option value="">Please Select</option>
+                                            @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                            {
+                                                <option value="3">Sleeper</option>
+                                                <option value="4">AC 3 Tier</option>
+                                                <option value="5">AC 3 Economy</option>
+                                                <option value="6">AC 2 Tier</option>
+                                                <option value="7">First Class</option>
+                                                <option value="8">Chair Car</option>
+                                            }
+                                            else
+                                            {
+                                                <option value="1">Economy</option>
+                                                <option value="2">Business </option>
+                                            }
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                        {
+                                            <h6 for="airlineNumber">Train Number:<span class="mandatory-star">*</span></h6>
+
+                                        }
+                                        else
+                                        {
+                                            <h6 for="airlineNumber">Airline Number:<span class="mandatory-star">*</span></h6>
+
+                                        }
+                                        <input type="text" class="form-control mandatoryFields" id="airlineNumber">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="pnrNumber">PNR Number:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields" id="pnrNumber">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="invoiceNumber">Invoice Number:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields" id="invoiceNumber">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3 clanederIconClickRow">
+                                    <div class="form-group">
+                                        <h6 for="invoiceDate">Invoice Date:<span class="mandatory-star">*</span></h6>
+                                        <input type="text" class="form-control mandatoryFields InvoiceDate AddDatepicker" id="invoiceDate-@i">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">
+                                                <i class="fas fa-calendar clanederIconClick"></i> <!-- Font Awesome calendar icon -->
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="fare">Fare:<span class="mandatory-star">*</span></h6>
+                                        <input type="number"  onkeyup="calculateTotalAmount(this)"
+                                        class="form-control mandatoryFields" id="fare">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="tax">Tax:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateTotalAmount(this)"
+                                        class="form-control mandatoryFields" id="tax">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="totalAmount">Total Amount:</h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)"
+                                        class="form-control mandatoryFields" id="totalAmount" disabled="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="discount">Discount:</h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)"
+                                        class="form-control" id="discount">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="serviceCharges">Service Charges:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)" 
+                                        class="form-control mandatoryFields" id="serviceCharges">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="serviceTax">Service Tax:<span class="mandatory-star">*</span></h6>
+                                        <input type="number" onkeyup="calculateNetAmount(this)" 
+                                        class="form-control mandatoryFields" id="serviceTax">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="netAmount">Net Amount:</h6>
+                                        <input type="number" class="form-control mandatoryFields" id="netAmount" disabled="">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+
+                                <div class="col-md-3">
+                                    <div class="form-group">
+                                        <h6 for="ticketStatus">Ticket Status:<span class="mandatory-star">*</span></h6>
+                                        <select class="form-control mandatoryFields" id="ticketStatus">
+                                            <option value="">Please Select</option>
+                                            <option value="12">Booked</option>
+                                            <option value="17">Cancelled</option>
+                                           @* @if (@Context.Session.GetString("SIsAdmin") == "true")
+                                            {
+                                                <option value="21">Pending With Admin</option>
+
+                                            }
+                                            else
+                                            {
+                                                <option value="10">Pending with Travel Desk</option>
+
+                                            }*@
+                                        </select>
+                                </div>
+                            </div>
+                             <div class="col-md-3">
+                                <div class="form-group">
+                                    <h6 for="attachment">Attachment:(Max-5Mb PDF file)<span class="mandatory-star">*</span></h6>
+                                    <div class="input-group">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input attachmentFiles mandatoryFields" id="attachment">
+                                            <label class="custom-file-label attachmentName" for="attachment">Choose file</label>
+                                        </div>
+                                        <a href="" class="classforfapaperclip" style="display:none">
+                                        <i class="fas fa-paperclip"></i> &nbsp;
+                                    </a>
+                                        <i class="fas fa-times deleteIcon" onclick="DeleteCurrentAttachment(this)" style="font-size:18px;color:red;display:none"></i>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <h6 for="cancellationCharges">Cancellation Charges:</h6>
+                                    <input type="number" class="form-control mandatoryFields" id="cancellationCharges" disabled="">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <h6 for="comments">Comments:</h6>
+                                    <textarea class="form-control" id="comments" rows="1.5"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+            </div>
+            }
+            }
+
+        <div class="row justify-content-center">
+            <div class="col-md-4 text-center">
+                <button type="submit" class="btn btn-danger" id="savebtn" onclick="SaveBookingDetails()"> Save</button>
+
+                <button type="submit" class="btn btn-danger" onclick="SubmitBookingDetails(true)">Submit</button>
+@*                <button type="button" class="btn btn-secondary" id="addMoreButton"><i class="fas fa-plus"></i> Add More Booking</button>
+*@            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+
+        <!-- Visual Studio Browser Link -->
+        <script type="text/javascript" src="/_vs/browserLink" async="async" id="__browserLink_initializationData" data-requestid="00a3bb64bc47475e8cfb47f364ebd13c" data-requestmappingfromserver="false" data-connecturl="http://localhost:58165/cf2d59c6a7734fc9a6908a7d69d8776e/browserLink"></script>
+        <!-- End Browser Link -->
+
+        <script src="/_framework/aspnetcore-browser-refresh.js"></script>
+
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="~/js/Booking.js" asp-append-version="true"> </script>
+        <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+        <script src="~/js/common.js" asp-append-version="true"></script>
+    </div>
+</body>
+</html>

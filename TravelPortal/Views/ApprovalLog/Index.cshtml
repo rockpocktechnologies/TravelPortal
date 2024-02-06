@@ -1,0 +1,47 @@
+﻿@model List<ApprovalLogModel>
+
+<h2>Approval Logs</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ApprovalLogId</th>
+            <th>RequestNumber</th>
+
+            <th>TravelRequestId</th>
+            <th>StatusID</th>
+            <th>NameOfReceiver</th>
+            <th>IsSentMailToTravelDesk</th>
+            <th>IsAdvanceAmountMailToAccounts</th>
+            <th>IsSentMailToAdmin</th>
+            <th>IsSentMailToInsurance</th>
+            <th>RequestOwnerName</th>
+            <th>RequestOwnerEmail</th>
+            <th>IsMakeStatusBookedWhenbySelf</th>
+            <th>LogToken</th>
+            <th>LogDate</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var log in Model)
+        {
+            <tr>
+                <td>@log.ApprovalLogId</td>
+                <td>@log.RequestNumber</td>
+                <td>@log.TravelRequestId</td>
+                <td>@log.StatusID</td>
+                <td>@log.NameOfReceiver</td>
+                <td>@log.IsSentMailToTravelDesk</td>
+                <td>@log.IsAdvanceAmountMailToAccounts</td>
+                <td>@log.IsSentMailToAdmin</td>
+                <td>@log.IsSentMailToInsurance</td>
+                <td>@log.RequestOwnerName</td>
+                <td>@log.RequestOwnerEmail</td>
+
+                <td>@log.IsMakeStatusBookedWhenbySelf</td>
+                <td>@log.LogToken</td>
+                <td>@log.LogDate</td>
+            </tr>
+        }
+    </tbody>
+</table>

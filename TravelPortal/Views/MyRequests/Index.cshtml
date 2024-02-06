@@ -1,0 +1,338 @@
+﻿@model List<MyRequestsModel>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Portal Dashboard</title>
+   
+    <style>
+          .editcurrentrequest {
+      text-decoration: none;
+  }
+ 
+  .cancelcurrentrequest {
+      text-decoration: none;
+  }  
+        /* Custom CSS for buttons and alignment */
+        .btn-custom {
+            color: #fff;
+            background-color: #007BFF; /* Blue color */
+            border-color: #007BFF;
+        }
+
+        .btn-custom-red {
+            color: #fff;
+            background-color: #DC3545; /* Red color */
+            border-color: #DC3545;
+        }
+
+        .btn-custom-green {
+            color: #fff;
+            background-color: #28A745; /* Green color */
+            border-color: #28A745;
+        }
+
+        /* Custom CSS for the text slider */
+        .text-slider {
+            position: relative;
+            overflow: hidden;
+            border: 1px solid #ccc;
+            padding: 15px;
+            height: 100%;
+        }
+
+        .slider-content {
+            display: none;
+            text-align: center;
+        }
+
+            .slider-content.active {
+                display: block;
+            }
+
+        .slider-nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+            .slider-nav span {
+                cursor: pointer;
+                font-size: 30px;
+                margin: 0 10px;
+            }
+
+        .prev-slide,
+        .next-slide {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .prev-slide {
+            float: left;
+        }
+
+        .next-slide {
+            float: right;
+        }
+
+        
+
+        /* Custom CSS for the two-column table */
+        .two-column-table td.label {
+            font-weight: bold;
+            width: 30%;
+        }
+
+        .two-column-table td.value {
+            width: 70%;
+        }
+
+         
+
+        /* Adjustments for the sidebar */
+        #sidebar {
+            background-color: #f8f9fa; /* Light gray background */
+            min-height: 100vh;
+            padding-top: 20px;
+        }
+
+            #sidebar .nav-link {
+                text-align: center;
+                padding: 10px 0;
+            }
+
+                #sidebar .nav-link.active {
+                    background-color: #007BFF; /* Blue color for active link */
+                    color: #fff; /* White text for active link */
+                }
+
+        /* Adjustments for the main content area */
+        #content {
+            background-color: #f9f9f9; /* Light gray background */
+            min-height: 100vh;
+            padding: 20px;
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        /* Adjustments for the pie chart container in the sidebar */
+        #sidebar .pie-chart-container {
+            text-align: center;
+            padding: 20px;
+        }
+
+
+        /* Custom CSS for DataTable search box */
+        .dataTables_wrapper .dataTables_filter input {
+            border: 2px solid #007BFF; /* Add a border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 5px 10px; /* Add padding to the input */
+            margin-bottom: 10px; /* Add some spacing below the search box */
+        }
+
+            /* Change the placeholder text color */
+            .dataTables_wrapper .dataTables_filter input::placeholder {
+                color: #007BFF;
+            }
+
+        /* Style the search button */
+        .dataTables_wrapper .dataTables_filter .btn-custom {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            margin-left: 10px;
+        }
+
+        /* Change the focus outline color */
+        .dataTables_wrapper .dataTables_filter input:focus {
+            outline-color: #007BFF;
+        }
+        /* Styles for the larger rectangles in the sidebar */
+        .large-rectangle {
+            background-color: #28A745; /* Green color for Approved */
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+            .large-rectangle.pending {
+                background-color: #FFC107; /* Yellow color for Pending */
+            }
+
+            .large-rectangle.rejected {
+                background-color: #DC3545; /* Red color for Rejected */
+            }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        .input-group-text {
+            border: none !important;
+            background-color: transparent !important;
+            cursor: pointer !important;
+            padding: 2.6rem .95rem !important;
+        }
+
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+
+
+    </style>
+</head>
+<body>
+     <main class="" id="content">
+                
+
+                <div class="row">
+                    <div class="col-md-12">
+    <table id="travelTable" class="display">
+        <thead>
+            <tr>
+             @*   <th>Expand</th>*@ <!-- This is for the expand icon -->
+                            <th class="hidden"></th>
+                <th class="">Request Id</th>
+                <th class="">Date Of Journey</th>
+                <th class="applydynamicwidthToAndFrom"  style="">From</th>
+                <th class="applydynamicwidthToAndFrom" style="">To</th>
+                <th class="">Purpose</th>
+                <th class="">Mode</th>
+                <th class="">Trip Type</th>
+                <th class="">Project</th>
+                <th class="">Booked By</th>
+                <th class="">Status</th>
+                <th class="">Action</th>
+
+                <th class="">Requested For</th>
+             
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var request in Model)
+            {
+                <tr>
+
+                              
+                       <td class="expand-icon-column" data-id="@request.RequestId">
+                <button class="expand-button" onclick="toggleDetails(this)">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+            </td>
+                               @* <td class="hidden">@request.RequestId</td>*@
+                    <td class="">
+                                    <a class="" asp-controller="EditRequest"
+                                    asp-action="EditTravelRequest"
+                                   asp-route-requestToken="@request.RequestToken" 
+                                   asp-route-mode="view">                                  
+                                    @request.TravelRequestNumber
+                                </a>
+                     </td>
+                    <td class="date-of-journey-column">@request.DateOfJourney</td>
+                    <td class="classfromplace" style="width:1px !important">@request.FromPlace</td>
+                                <td class="" style="width:1px !important">@request.ToPlace</td>
+                    <td class="">@request.Purpose</td>
+                    <td class="">@request.Mode</td>
+                    <td class="">@request.TravelType</td>
+                    <td class="">@request.Project</td>
+                     <td class="">@request.Ticket_Booked_By</td>
+                                <td class="classForStatus">@request.Status</td>
+
+                                <td class="actionicons">
+                                  @*  @if(@request.IsSubmitted){
+
+                                        <i class="fas fa-edit edit-icon cursor-pointer" rel="tooltip" disbaled title="You can not edit submitted request"></i>
+
+                                        <i class="fas fa-times cancel-icon text-danger cursor-pointer" disbaled title="You can not cancel submitted request"></i>
+                                    }
+                                    else{*@
+                                    <a class="editcurrentrequest" asp-controller="EditRequest" asp-action="EditTravelRequest"
+                                   asp-route-requestToken="@request.RequestToken" asp-rout-mode="edit">
+                                        <i class="fas fa-edit edit-icon cursor-pointer"></i>
+                                    </a>
+                                    &nbsp;&nbsp;
+                                    <a class="cancelcurrentrequest" onclick="CancelMyRequest('@request.RequestToken.ToString()')" style="cursor:pointer">
+                                        <i class="fas fa-times cancel-icon text-danger cursor-pointer"></i>
+                                    </a>
+                                  @*  }*@
+                                    <a class="add-expense-column" style="display:none" asp-controller="AddExpense" asp-action="Index"
+                                   asp-route-requestToken="@request.RequestToken"
+                                   asp-route-travelRequestNumber="@request.TravelRequestNumber"
+                                   asp-route-view="emp" asp-route-number="@request.RequestId">
+                                        <i class="fas fa-wallet cursor-pointer" title="Add Expense"></i>
+                                    </a>
+                                </td>
+                                    
+                    <td class="">@request.RequestedFor</td>
+                   @* <td><button class="expand-button">Expand</button></td>*@ <!-- Expand button for mobile view -->
+                </tr>
+               @* <tr class="expanded-row">
+                    <td colspan="13">
+                        <div class="expanded-content">
+                            <!-- Additional information for expandable row -->
+                        </div>
+                    </td>
+                </tr>*@
+            }
+        </tbody>
+    </table>
+
+
+    </div>
+    </div>
+    </main>
+
+
+    <script src="~/js/jquery.datatables.min.js"></script>
+    <script src="~/js/datatables.responsive.min.js"></script>
+    <script src="~/js/MyRequests.js" asp-append-version="true"></script>
+    <script src="~/js/common.js" asp-append-version="true"></script>
+</body>
+</html>

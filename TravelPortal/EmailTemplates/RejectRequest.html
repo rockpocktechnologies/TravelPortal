@@ -1,0 +1,98 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid black;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+        }
+
+        .approve-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+
+        .reject-button {
+            background-color: #FF5733;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p>Dear <strong>{ReceiverName}</strong>,</p>
+    <p>Your {RequestType} is rejected</p>
+    <table>
+        <tr>
+            <th>Field</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td><strong>{EmployeeName}</strong></td>
+            <td>{SenderName}</td>
+        </tr>
+        <tr>
+            <td><strong>Request For</strong></td>
+            <td>{RequestFor}</td>
+        </tr>
+        <tr>
+            <td><strong>Travel Request ID</strong></td>
+            <td>{TravelRequestNumber}</td>
+        </tr>
+        <tr>
+            <td><strong>Mode</strong></td>
+            <td>{Mode}</td>
+        </tr>
+        <tr>
+            <td><strong>Trip</strong></td>
+            <td>{Trip}</td>
+        </tr>
+        {TravelDetails}
+        <tr>
+            <td><strong>Status</strong></td>
+            <td>{Status}</td>
+        </tr>
+        <tr>
+            <td><strong>Reason</strong></td>
+            <td>{Reason}</td>
+        </tr>
+        <tr>
+            <td><strong>Advance Amount Requested</strong></td>
+            <td>{AdvanceAmountRequested}</td>
+        </tr>
+        <tr>
+            <td><strong>Currency</strong></td>
+            <td>{CurrencyName}</td>
+        </tr>
+        <tr>
+            <td><strong>Mobile Number</strong></td>
+            <td>{Emp_Mobile}</td>
+        </tr>
+    </table>
+
+</body>
+</html>

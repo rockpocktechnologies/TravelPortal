@@ -1,0 +1,1135 @@
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.exe
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\appsettings.Development.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\appsettings.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.staticwebassets.runtime.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Identity.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Security.KeyVault.Certificates.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Humanizer.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\MessagePack.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\MessagePack.Annotations.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Build.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Graph.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Graph.Beta.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.Certificate.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.Certificateless.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.Diagnostics.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.GraphServiceClient.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.GraphServiceClientBeta.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.TokenAcquisition.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.TokenCache.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.UI.Views.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.UI.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.LoggingExtensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Validators.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Authentication.Azure.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Http.HttpClientLibrary.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Form.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Multipart.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Text.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Newtonsoft.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Configuration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Frameworks.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.LibraryModel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Packaging.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.ProjectModel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Protocol.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Versioning.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.Convention.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.Hosting.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.Runtime.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.TypedParts.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Data.SqlClient.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Drawing.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Memory.Data.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Permissions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Windows.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Tavis.UriTemplates.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\af\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ar\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\az\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\bg\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\da\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\el\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fa\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\he\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\hr\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\hu\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\hy\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\id\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\is\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ku\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\lv\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\mt\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\nb\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\nl\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ro\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sk\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sl\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sr\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sv\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\uk\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\vi\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.csproj.AssemblyReference.cache
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.GeneratedMSBuildEditorConfig.editorconfig
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.AssemblyInfoInputs.cache
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.AssemblyInfo.cs
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.csproj.CoreCompileInputs.cache
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.MvcApplicationPartsAssemblyInfo.cs
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.MvcApplicationPartsAssemblyInfo.cache
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.RazorAssemblyInfo.cache
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.RazorAssemblyInfo.cs
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets.build.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets.development.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\scopedcss\bundle\TravelPortal.styles.css
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\scopedcss\projectbundle\TravelPortal.bundle.scp.css
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.csproj.CopyComplete
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\refint\TravelPortal.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.pdb
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.deps.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.runtimeconfig.json
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.pdb
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Server.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Web.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Features.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Results.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Identity.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Rewrite.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Session.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebSockets.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.CSharp.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Console.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Debug.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.ObjectPool.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.WebEncoders.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.JSInterop.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Net.Http.Headers.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.VisualBasic.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.VisualBasic.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Win32.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Win32.Registry.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\mscorlib.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\netstandard.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.AppContext.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Buffers.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.Concurrent.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.Immutable.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.NonGeneric.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.Specialized.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.Annotations.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.DataAnnotations.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.EventBasedAsync.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.TypeConverter.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Configuration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Console.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Core.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Data.Common.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Data.DataSetExtensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Data.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.StackTrace.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Tools.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.TraceSource.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Tracing.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Drawing.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Drawing.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Dynamic.Runtime.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Formats.Asn1.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Globalization.Calendars.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Globalization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Globalization.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.Brotli.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.FileSystem.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.ZipFile.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.AccessControl.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.DriveInfo.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.Watcher.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.IsolatedStorage.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.MemoryMappedFiles.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Pipelines.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Pipes.AccessControl.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Pipes.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.UnmanagedMemoryStream.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.Expressions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.Parallel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.Queryable.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Memory.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Http.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Http.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.HttpListener.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Mail.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.NameResolution.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.NetworkInformation.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Ping.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Requests.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Security.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.ServicePoint.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Sockets.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebClient.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebHeaderCollection.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebProxy.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebSockets.Client.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebSockets.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Numerics.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Numerics.Vectors.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ObjectModel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.DispatchProxy.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Emit.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Emit.ILGeneration.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Emit.Lightweight.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Metadata.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.TypeExtensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Resources.Reader.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Resources.ResourceManager.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Resources.Writer.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.VisualC.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Handles.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.InteropServices.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Intrinsics.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Loader.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Numerics.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Formatters.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Xml.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.AccessControl.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Claims.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Algorithms.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Cng.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Csp.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Encoding.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.OpenSsl.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Primitives.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.X509Certificates.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Xml.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Principal.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Principal.Windows.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.SecureString.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ServiceModel.Web.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ServiceProcess.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encoding.CodePages.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encoding.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encodings.Web.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Json.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Channels.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Overlapped.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.Dataflow.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.Extensions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.Parallel.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Thread.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.ThreadPool.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Timer.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Transactions.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Transactions.Local.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ValueTuple.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Web.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Web.HttpUtility.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Windows.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.Linq.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.ReaderWriter.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.Serialization.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XDocument.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XmlDocument.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XmlSerializer.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XPath.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XPath.XDocument.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\WindowsBase.dll
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.genruntimeconfig.cache
+S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\ref\TravelPortal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.csproj.AssemblyReference.cache
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.GeneratedMSBuildEditorConfig.editorconfig
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.AssemblyInfoInputs.cache
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.AssemblyInfo.cs
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.csproj.CoreCompileInputs.cache
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.MvcApplicationPartsAssemblyInfo.cs
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.MvcApplicationPartsAssemblyInfo.cache
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.RazorAssemblyInfo.cache
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.RazorAssemblyInfo.cs
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\refint\TravelPortal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.pdb
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\appsettings.Development.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\appsettings.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.staticwebassets.runtime.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.exe
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.deps.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.runtimeconfig.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\TravelPortal.pdb
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Antiforgery.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Cookies.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authentication.OAuth.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Forms.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Server.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Components.Web.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Connections.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.CookiePolicy.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cors.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.DataProtection.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Diagnostics.HealthChecks.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HostFiltering.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Html.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Connections.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Features.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Http.Results.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpLogging.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpOverrides.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.HttpsPolicy.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Identity.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Localization.Routing.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Metadata.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ApiExplorer.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Cors.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.DataAnnotations.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Formatters.Xml.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Localization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.Razor.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.RazorPages.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.TagHelpers.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Mvc.ViewFeatures.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Razor.Runtime.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCaching.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.ResponseCompression.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Rewrite.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Routing.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.HttpSys.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IIS.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.IISIntegration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Quic.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.Session.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.SignalR.Protocols.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.StaticFiles.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebSockets.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.AspNetCore.WebUtilities.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.CSharp.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Caching.Memory.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Binder.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Ini.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.KeyPerFile.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Configuration.Xml.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.DependencyInjection.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Features.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Hosting.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Http.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Identity.Stores.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Localization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Configuration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Console.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.Debug.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventLog.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.EventSource.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Logging.TraceSource.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.ObjectPool.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.DataAnnotations.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Options.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Extensions.WebEncoders.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.JSInterop.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Net.Http.Headers.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.VisualBasic.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.VisualBasic.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Win32.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\Microsoft.Win32.Registry.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\mscorlib.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\netstandard.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.AppContext.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Buffers.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.Concurrent.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.Immutable.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.NonGeneric.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Collections.Specialized.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.Annotations.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.DataAnnotations.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.EventBasedAsync.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ComponentModel.TypeConverter.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Configuration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Console.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Data.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Data.DataSetExtensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Data.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Contracts.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Debug.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.DiagnosticSource.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.EventLog.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.FileVersionInfo.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Process.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.StackTrace.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.TextWriterTraceListener.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Tools.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.TraceSource.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Diagnostics.Tracing.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Drawing.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Drawing.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Dynamic.Runtime.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Formats.Asn1.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Globalization.Calendars.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Globalization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Globalization.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.Brotli.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.FileSystem.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Compression.ZipFile.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.AccessControl.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.DriveInfo.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.FileSystem.Watcher.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.IsolatedStorage.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.MemoryMappedFiles.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Pipelines.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Pipes.AccessControl.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.Pipes.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.IO.UnmanagedMemoryStream.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.Expressions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.Parallel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Linq.Queryable.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Memory.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Http.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Http.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.HttpListener.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Mail.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.NameResolution.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.NetworkInformation.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Ping.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Requests.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Security.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.ServicePoint.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.Sockets.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebClient.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebHeaderCollection.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebProxy.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebSockets.Client.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Net.WebSockets.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Numerics.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Numerics.Vectors.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ObjectModel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.DispatchProxy.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Emit.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Emit.ILGeneration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Emit.Lightweight.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Metadata.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Reflection.TypeExtensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Resources.Reader.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Resources.ResourceManager.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Resources.Writer.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.Unsafe.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.CompilerServices.VisualC.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Handles.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.InteropServices.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Intrinsics.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Loader.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Numerics.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Formatters.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Runtime.Serialization.Xml.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.AccessControl.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Claims.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Algorithms.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Cng.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Csp.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Encoding.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.OpenSsl.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Primitives.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.X509Certificates.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Cryptography.Xml.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Principal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.Principal.Windows.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Security.SecureString.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ServiceModel.Web.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ServiceProcess.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encoding.CodePages.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encoding.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encoding.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Encodings.Web.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Text.RegularExpressions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Channels.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Overlapped.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.Dataflow.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Tasks.Parallel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Thread.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.ThreadPool.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Threading.Timer.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Transactions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Transactions.Local.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.ValueTuple.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Web.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Web.HttpUtility.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Windows.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.Linq.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.ReaderWriter.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.Serialization.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XDocument.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XmlDocument.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XmlSerializer.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XPath.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\System.Xml.XPath.XDocument.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\refs\WindowsBase.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Identity.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Security.KeyVault.Certificates.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Azure.Security.KeyVault.Secrets.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\EPPlus.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\EPPlus.Interfaces.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\EPPlus.System.Drawing.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Humanizer.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\MessagePack.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\MessagePack.Annotations.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.MicrosoftAccount.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Build.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Build.Framework.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Features.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Features.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Scripting.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.DiaSymReader.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.DotNet.Scaffolding.Shared.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Graph.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Graph.Beta.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.Certificate.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.Certificateless.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.Diagnostics.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.GraphServiceClient.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.GraphServiceClientBeta.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.TokenAcquisition.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.TokenCache.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.UI.Views.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Identity.Web.UI.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.LoggingExtensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IdentityModel.Validators.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Abstractions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Authentication.Azure.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Http.HttpClientLibrary.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Form.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Multipart.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Kiota.Serialization.Text.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.NET.StringTools.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Debugger.Contracts.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\dotnet-aspnet-codegenerator-design.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Configuration.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.DependencyResolver.Core.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Frameworks.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.LibraryModel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Packaging.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.ProjectModel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Protocol.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\NuGet.Versioning.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.AttributedModel.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.Convention.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.Hosting.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.Runtime.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Composition.TypedParts.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Data.SqlClient.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Reflection.MetadataLoadContext.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Cryptography.Xml.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\Tavis.UriTemplates.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\af\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ar\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\az\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\bg\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\bn-BD\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\da\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\el\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fa\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fi-FI\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr-BE\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\he\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\hr\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\hu\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\hy\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\id\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\is\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko-KR\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ku\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\lv\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ms-MY\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\mt\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\nb\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\nb-NO\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\nl\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ro\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sk\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sl\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sr\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sr-Latn\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\sv\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\th-TH\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\uk\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\uz-Cyrl-UZ\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\uz-Latn-UZ\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\vi\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-CN\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Humanizer.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Features.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets\msbuild.TravelPortal.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets\msbuild.build.TravelPortal.props
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.TravelPortal.props
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.TravelPortal.props
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets.build.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\staticwebassets.development.json
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\scopedcss\bundle\TravelPortal.styles.css
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\scopedcss\projectbundle\TravelPortal.bundle.scp.css
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.csproj.CopyComplete
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\TravelPortal.genruntimeconfig.cache
+D:\Project_ASP.NET Core\TravelPortalCoreMVC\TravelPortal\TravelPortal\obj\Debug\net6.0\ref\TravelPortal.dll

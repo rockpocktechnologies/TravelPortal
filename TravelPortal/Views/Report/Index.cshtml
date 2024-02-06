@@ -1,0 +1,40 @@
+﻿@model TravelPortal.Models.ReportType
+@{
+    ViewData["Title"] = "Reports";
+}
+
+<div id="reportsContainer" style="text-align: center; width: 50%; margin: 0 auto;">
+    <div style="text-align: center;">
+        <div class="form-group">
+            <h6 class="mb-4">Select Report Type:</h6>
+            <select id="reportType" name="reportType" class="form-control">
+                <option value="">Please Select</option>
+                @foreach (var reportType in ViewBag.ReportTypes)
+                {
+                    <option value="@reportType.Id">@reportType.ReportName</option>
+                }
+            </select>
+        </div>
+
+        <div style="margin-top: 20px;">
+            <button type="button" class="btn btn-danger" onclick="onOkButtonClick()">OK</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function onOkButtonClick() {
+        var selectedval = $("#reportType").val();
+        if (selectedval == "") {
+            alert("Please select a report.");
+        } else if (selectedval == "1") {
+            window.location.href = '/InsuranceReport/Index';
+        } else if (selectedval == "3") {
+            window.location.href = '/FB60ForvolReport/Index';
+        }
+    }
+
+    function cancelMaster() {
+        // Add your logic here when Cancel button is clicked
+    }
+</script>

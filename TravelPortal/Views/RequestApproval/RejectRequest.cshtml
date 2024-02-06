@@ -1,0 +1,137 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Request Rejected</title>
+    <style>
+        .centered-message {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           /* background-color: red;*/
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .comment-area {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        #commentInput {
+            width: 80%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        #rejectButton {
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #divMessage{
+             background-color: red;
+             display:none;
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-message">
+        <div id="divMessage">
+            Request is rejected.
+        </div>
+        <div class="comment-area">
+           
+            <div id="divSection">
+                <textarea id="commentInput" placeholder="Add comments"></textarea>
+                <button id="rejectButton" onclick="RejectCurrentRequest()">Reject</button>
+            </div>
+           
+        </div>
+    </div>
+    <script>
+        function RejectCurrentRequest() {
+
+            if ($("#commentInput").val() != ""){
+            // Make an AJAX request
+            $.ajax({
+                type: "POST", // Use the appropriate HTTP method
+                url: "/RequestApproval/RejectCurrentRequest", // Specify the URL of your server-side method
+                    data: { token: getUrlParameter("token"),comment: $("#commentInput").val() }, // Serialize data as JSON if needed
+                dataType: "json",
+                success: function (response) {
+                    $('#preloader').hide();
+                        var isredirect = getUrlParameter("isredirect");
+                    if (response == "1") {
+                            $(".comment-area").hide();
+                            $("#divMessage").show();
+                        if (isredirect == "true") {
+                            setTimeout(function () {
+                                window.location.href = '/MyApprovals';
+                            }, 3000);
+                        }
+                        else {
+                            //  $(".openbtn").remove();
+                        }
+
+                    }
+                    else  if (response == "2") {
+                            if (isredirect == "true") {
+                            window.location.href = '/RequestApproval/RequestNotFound?isredirect=true';
+                            }
+                            else {
+                                window.location.href = '/RequestApproval/RequestNotFound';
+                            }
+                   }
+
+                },
+                error: function (error) {
+                    $('#preloader').hide();
+                    alert("error-" + error)
+                }
+            });
+            }
+            else{
+                alert("Please add comment");
+            }
+
+        }
+
+
+            var isredirect = getUrlParameter("isredirect");
+            if (isredirect == "true") {
+              
+            }
+            else {
+                $(".openbtn").remove();
+            }
+
+            function getUrlParameter(sParam) {
+                var sPageURL = window.location.search.substring(1),
+                    sURLVariables = sPageURL.split('&'),
+                    sParameterName,
+                    i;
+
+                for (i = 0; i < sURLVariables.length; i++) {
+                    sParameterName = sURLVariables[i].split('=');
+
+                    if (sParameterName[0] === sParam) {
+                        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
+                    }
+                }
+                return false;
+            };
+           
+      
+
+    </script>
+</body>
+</html>
+

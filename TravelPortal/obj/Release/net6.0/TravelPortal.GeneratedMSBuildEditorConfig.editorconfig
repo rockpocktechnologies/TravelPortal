@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = TravelPortal
+build_property.RootNamespace = TravelPortal
+build_property.ProjectDir = S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = S:\Projects\TravelPortalCoreMVC\TravelPortal\TravelPortal
+build_property._RazorSourceGeneratorDebug = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/AddExpense/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRkRXhwZW5zZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/ApprovalLog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwcm92YWxMb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/AssociateEmployeeDepartment/AssociateEmployeeDepartment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzb2NpYXRlRW1wbG95ZWVEZXBhcnRtZW50XEFzc29jaWF0ZUVtcGxveWVlRGVwYXJ0bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Booking/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/EmailLog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1haWxMb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/ErrorLog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JMb2dcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/ErrorView/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXJyb3JWaWV3XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/MyApprovals/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlBcHByb3ZhbHNcaW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/MyRequests/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXlSZXF1ZXN0c1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/NewRequest/index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3UmVxdWVzdFxpbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/RequestApproval/ApproveRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEFwcHJvdmFsXEFwcHJvdmVSZXF1ZXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/RequestApproval/RejectRequest.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEFwcHJvdmFsXFJlamVjdFJlcXVlc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/RequestApproval/RequestNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVxdWVzdEFwcHJvdmFsXFJlcXVlc3ROb3RGb3VuZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/signout-oidc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2lnbm91dC1vaWRjXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[S:/Projects/TravelPortalCoreMVC/TravelPortal/TravelPortal/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-n9klw15xgd

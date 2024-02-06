@@ -1,0 +1,22 @@
+﻿@model TravelPortal.Models.EmployeeDepartmentViewModel
+
+@{
+    ViewData["Title"] = "Associate Employees with Departments";
+}
+
+@*<div class="container">
+    <h2>Associate Employees with Departments</h2>
+
+    <form asp-action="AssociateEmployees" method="post">
+        <div class="form-group">
+            <label asp-for="DepartmentID">Select Department:</label>
+            <select asp-for="DepartmentID" asp-items="new SelectList(Model.Departments, "DepartmentId", "DepartmentName")" class="form-control"></select>
+        </div>
+        <div class="form-group">
+            <label asp-for="EmployeeID">Select Employee:</label>
+            <select asp-for="EmployeeID" asp-items="new SelectList(Model.Employees, "EmployeeId", "EmployeeName")" class="form-control"></select>
+        </div>
+        <button type="submit" class="btn btn-primary">Associate Employee</button>
+    </form>
+</div>
+*@
